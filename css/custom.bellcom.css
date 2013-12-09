@@ -1,0 +1,154 @@
+.breadcrumb {display: none;}
+#page-wrapper #header h1#site-name a {
+  font-family: inherit !important;
+}
+.other-logos {
+  height: 80px;
+  box-shadow: 0 3px #f8f8f8;
+  margin-bottom: 10px;
+}
+.main-menu {
+  float: left;
+  padding-left: 40px;
+}
+#page-wrapper #header #navigation .section {
+ float: none !important;
+}
+.sec-menu {
+  float: right;
+}
+#navigation .section a {
+  font-size: 15px !important;
+  position: relative;
+}
+#first-time,h1.title {display: none;}
+
+/*****body ***/
+body {color:#111;background-color:#F3F3F3;}
+#page {background-color: #fff; padding: 20px 20px;overflow-x:hidden; position:relative;}
+.region-content {position:relative;}
+
+/** Ipad or tablet and Mobile ****/
+@media (max-width:766px) {
+  #sidebar {width:100%;overflow:hidden;}
+  #block-rooms-booking-manager-rooms-availability-search,
+  form#rooms-booking-availability-search-form {
+    width: 250px !important; 
+  }
+  #content {
+    width: 100%
+  }
+  .view-camping-type {
+    display: none;
+  } 
+
+}
+
+/***  Mobile *****/
+@media (max-width:320px) {
+  body {
+    padding: 0;
+  }
+}
+
+
+@media (min-width:767px) and (max-width:768px)  {
+  #sidebar {width:100%;overflow:hidden;}
+  form#rooms-booking-availability-search-form {
+    width: 250px !important;
+  }
+
+  #content {
+    width: 620px;
+    margin-right: 30px;
+  }
+  .page-camping  #content {
+    background: url('../images/map.png') 100% 0% no-repeat no-repeat;
+    background-size: 100%;
+    height: 700px;
+    position: relative;
+  }
+  .page-booking #content_result {
+    background: url('../images/map.png') 100% 0% no-repeat no-repeat;
+    background-size: 100%;
+    height: 700px;
+    position: relative;
+  }
+  .view-camping-type {
+    height: 700px;
+    position: relative;
+  }
+  .page-camping .view-camping-type .views-field.views-field-link-unit span {
+    opacity: 0;
+  }
+}
+
+@media (min-width:769px) {
+  #sidebar {width:250px;overflow:hidden;}
+  .page-camping  #content {
+    background: url('../images/map.png') 100% 0% no-repeat no-repeat;
+    background-size: 100%;
+    min-height: 700px;
+    position: relative;
+  }
+  .page-booking #content_result {
+    background: url('../images/map.png') 100% 0% no-repeat no-repeat;
+    background-size: 100%;
+    min-height: 700px;
+    position: relative;
+  }
+  #content {
+    width: 620px 
+  }
+  .container {
+    width: 940px !important;
+  }
+  .view-camping-type {
+    height: 700px;
+    position: relative;
+  }
+  .page-camping .view-camping-type .views-field.views-field-link-unit span {
+    opacity: 0;
+  }
+
+}
+
+
+/*** Camper type menu **/
+#block-menu-menu-camping-menu .content li {list-style: none; line-height:40px; border-top:2px solid #fff;}
+#block-menu-menu-camping-menu {*position:absolute; *top:140px; margin-left:-0.5em;width:100%;}
+#block-menu-menu-camping-menu .content ul {width: 100%; margin:0;}
+#rooms-booking-availability-search-form .form-wrapper {*position:absolute;bottom:-500px;}
+
+#block-menu-menu-camping-menu .content li.first{ background:url('../images/trailer.png') 0 center no-repeat #71B3C6; }
+#block-menu-menu-camping-menu .content li.last {background: url('../images/tent.png') 0 center no-repeat #C94D30;}
+a.campingovogn {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
+a.autocamper {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
+a.hytter {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
+a.telt {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
+
+/* Search form */
+.form-actions {*text-align: center;padding-left:0;border:0;}
+#edit-group-size-adults1, #edit-group-size-children1,
+#edit-group-size-adults1--2,#edit-group-size-children1--2 {position: absolute; right:30px;}
+#rooms-booking-availability-search-form--2 .form-submit,#rooms-booking-availability-search-form .form-submit {
+  padding-right: 100px;
+  padding-left: 95px;
+  background-color:#009933;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  border: none;color:#fff;font-weight:bold;
+}
+#edit-rooms-end-date--2 label, .form-item-rooms-start-date-date label, #edit-rooms-end-date label {display: none; width: 30px; padding-right: 10px; }
+.form-item-rooms-start-date label, .form-item-rooms-end-date label {float:left;width: 30px; padding-right: 10px;}
+form .container-inline-date .date-padding {padding: 0px;}
+#block-rooms-booking-manager-rooms-availability-search,
+form#rooms-booking-availability-search-form {width: 100%; position:relative;margin-left:0.5em;}
+.form-type-select {*display: inline;}
+select {width: inherit;}
+label {display:inline;}
+#sidebar h2 {font-size: 18px;font-weight:bold;}
+#content h2 {font-size: 18px;font-weight:bold;}
+#content form#rooms-booking-availability-search-form {display:none;}
+
