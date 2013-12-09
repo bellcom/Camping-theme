@@ -188,12 +188,6 @@
         <?php print render($page['content']); ?>
       </div></div> <!-- /.section, /#content -->
 
-      <?php /*if ($page['sidebar_first']): ?>
-        <div id="sidebar" class="column sidebar span4"><div class="section">
-          <?php print render($page['sidebar_first']); ?>
-        </div></div> <!-- /.section, /#sidebar-first -->
-      <?php endif; */?>
-
     </div></div> <!-- /#main, /#main-wrapper -->
 
     <div id="footer"><div class="section">
@@ -204,8 +198,8 @@
         <?php endif; ?>
       <p class="copyright">
         <?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <a href="<?php print $front_page; ?>">
-        <?php print $site_name; ?></a>. <?php print t('Theme by'); ?>  <a href="http://www.drupal-responsive.com" target="_blank">Drupal Responsive.</a>
-        <?php print t('Icons by'); ?>  <a href="http://www.glyphicons.com" target="_blank">GLYPHICONS.</a>
+        <?php //print $site_name; ?></a>. <?php print t('Theme by'); ?>  <a href="http://www.drupal-responsive.com" target="_blank">Drupal Responsive.</a>
+        <?php //print t('Icons by'); ?>  <a href="http://www.glyphicons.com" target="_blank">GLYPHICONS.</a>
       </p>
     </div></div> <!-- /.section, /#footer -->
 
