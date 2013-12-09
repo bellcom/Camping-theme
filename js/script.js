@@ -22,6 +22,7 @@ Drupal.behaviors.camping = {
     }
     $('a.hytter').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/house.png') 0 center no-repeat #9F2A68");
     $('a.autocamper').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/autocamp.png') 0 center no-repeat #9DB330");
+    $('a.telt').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/tent.png') 0 center no-repeat #C94d30");
 
     $('.booking-result').click(function(e){
       $(this).css({'display':'block','background-color': 'red','width':'10px','height': "10px",});

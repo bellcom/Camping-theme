@@ -121,8 +121,8 @@ body {color:#111;background-color:#F3F3F3;}
 #rooms-booking-availability-search-form .form-wrapper {*position:absolute;bottom:-500px;}
 
 #block-menu-menu-camping-menu .content li.first{ background:url('../images/trailer.png') 0 center no-repeat #71B3C6; }
-#block-menu-menu-camping-menu .content li.last {background: url('../images/tent.png') 0 center no-repeat #C94D30;}
-a.campingovogn {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
+#block-menu-menu-camping-menu .content li.last {background-color: #8F655C;}
+#block-menu-menu-camping-menu a,a.campingovogn {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
 a.autocamper {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
 a.hytter {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
 a.telt {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text-transform: uppercase;padding-left: 80px;}
