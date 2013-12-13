@@ -136,6 +136,10 @@ function camping_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'rooms_booking_availability_search_form') {
     hide($form['conditions']['rooms']);
   }
+  if ($form_id == 'views-form-booking-cart-form-default') {
+      $form['actions']['submit']['#attributes']['class'][] = 'btn';
+      $form['line_items'][$line_item_id]['remove']['#attributes']['class'][] = 'btn';
+  }
 }
 
 /**
