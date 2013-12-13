@@ -24,8 +24,9 @@ Drupal.behaviors.camping = {
     $('a.autocamper').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/autocamp.png') 0 center no-repeat #9DB330");
 
     $('.booking-result').click(function(e){
+      $(".result-div").hide();
       $(this).css({'display':'block','background-color': 'red','width':'10px','height': "10px",});
-      $(this).find(".result-div").hide();
+
       //$(this).find('.entity-rooms-unit').hide();
       var style_1 = $(this).find('.result-div').css('display');
       var style_2 = $(this).css('background-color');
