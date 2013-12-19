@@ -1,4 +1,20 @@
 .breadcrumb {display: none;}
+#block-gtranslate-gtranslate {
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 120px;
+}
+.page-user-orders .region-help,
+.page-user-invoices .region-help {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+.print_html {
+  float:right
+}
 #page-wrapper #header h1#site-name a {
   font-family: inherit !important;
 }
@@ -6,6 +22,9 @@
   height: 80px;
   box-shadow: 0 3px #f8f8f8;
   margin-bottom: 10px;
+}
+#logo img{
+  width: 100%;
 }
 .main-menu {
   float: left;
