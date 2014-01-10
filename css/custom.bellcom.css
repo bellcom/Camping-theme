@@ -5,6 +5,7 @@
   right: 0;
   top: 120px;
 }
+.views-field-edit-quantity input,
 #edit-edit-quantity-0 {
   width: 10px;
 }
@@ -183,7 +184,7 @@ a.telt {color: #fff; margin-right: 15px;font-weight: bold;font-size: 17.5px;text
 #edit-group-size-adults1--2,#edit-group-size-children1--2 {position: absolute; right:30px;}
 #rooms-booking-availability-search-form--2 .form-submit,#rooms-booking-availability-search-form .form-submit {
   padding-right: 100px;
-  padding-left: 95px;
+  padding-left: 90px;
   background-color:#009933;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -202,3 +203,33 @@ label {display:inline;}
 #content h2 {font-size: 18px;font-weight:bold;}
 #content form#rooms-booking-availability-search-form {display:none;}
 
+/* Print */
+.page-user-invoices- {
+  }
+.entity-commerce-invoice .form-item.form-type-item {
+  margin-left : 10px;
+  float: left;
+  width: 50%;
+}
+.entity-commerce-invoice .field-name-commerce-customer-billing {
+  margin: 50px 30px;
+  float: left;
+  width: 100%
+}
+.entity-commerce-invoice table.commerce-price-formatted-components {
+   float: right;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.entity-commerce-invoice .field-name-field-order-description {
+  padding: 100px 0 0px 30px;
+  float: left;
+}
+.page-admin-commerce-orders-fragtseddel-list .field-name-field-sender {
+  margin-top: 30px;
+}
+
+.view-id-commerce_line_item_table {
+  width: 100%;
+  float: left;
+}
