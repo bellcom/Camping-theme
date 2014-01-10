@@ -47,9 +47,9 @@ Drupal.behaviors.camping = {
 
     });
 
-    $('.booking-result div.result-div').click(function(e){
+    $('.booking-result div.result-div h2').click(function(e){
 
-      $(this).hide(600);
+      $(this).parents("div.result-div").hide(600);
 
    });
 

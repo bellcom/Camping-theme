@@ -5,6 +5,9 @@
   right: 0;
   top: 120px;
 }
+#edit-edit-quantity-0 {
+  width: 10px;
+}
 .page-user-orders .region-help,
 .page-user-invoices .region-help {
   border: none;
