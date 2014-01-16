@@ -87,6 +87,9 @@ body {color:#111;background-color:#F3F3F3;}
 .form-submit {
 
 }
+.views-field.views-field-line-item-label {
+  width: 30%;
+}
 /***  Mobile *****/
 @media (max-width:320px) {
   body {
