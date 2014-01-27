@@ -20,9 +20,9 @@ Drupal.behaviors.camping = {
       $('#main-wrapper #content').removeClass('span12');
       $('#main-wrapper #content').addClass('span8');
     }
-    $('a.hytter').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/house.png') 0 center no-repeat #9F2A68");
-    $('a.autocamper').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/autocamp.png') 0 center no-repeat #9DB330");
-    $('a.telt').parents("li").css("background","url('/sites/all/themes/Camping-theme/images/tent.png') 0 center no-repeat #C94d30");
+    $('a.hytter').parents("li").css("background","url('/profiles/camping/themes/Camping/images/house.png') 0 center no-repeat #9F2A68");
+    $('a.autocamper').parents("li").css("background","url('/profiles/camping/themes/Camping/images/autocamp.png') 0 center no-repeat #9DB330");
+    $('a.telt').parents("li").css("background","url('/profiles/camping/themes/Camping/images/tent.png') 0 center no-repeat #C94d30");
     $("#content .form-submit").addClass('btn');
 
     $('.booking-result').click(function(e){
