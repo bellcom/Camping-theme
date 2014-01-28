@@ -95,7 +95,7 @@ h6 {
 						span.menu-divider{
 								padding: 0 8px 0 10px;
 								color: $txtgray;
-								}	
+								}
 						a.active{
 							font-weight: bold;
 							color: $selection;
@@ -280,7 +280,7 @@ ol.search-results{
 		}
 	}
 .form-search .input-append .btn{
-	height: 30px;	
+	height: 30px;
 }
 
 /*
@@ -294,15 +294,15 @@ ol.search-results{
     padding: 0;
     @include clearfix;
     margin: 10px 0 0 0;
-  					
+
     li:first-child{
       padding:0;
-      }  
+      }
     li{
       float: left;
       width: 24px;
       padding: 0 0 0 8px;
-  
+
     a{
       display: block;
   	width: 24px;
@@ -311,3 +311,5 @@ ol.search-results{
     }
   }
 }
+
+@import "custom.bellcom";
