@@ -1,0 +1,16 @@
+
+@import "base";
+@media (min-width:767px) {
+
+  .page-camping  #content,
+  .page-booking #content_result {
+    background: url('../images/maps/marinalystcamp.png') 100% 0 no-repeat no-repeat;
+  }
+}
+
+@media (min-width:767px) {
+
+  /***  Room location ****/
+  @include room-locate(127, 54%, 64%);
+
+}

@@ -7,3 +7,10 @@ $txtgray: #999;
 $hovergray: #383838;
 $divider: #E1E1E1;
 $selection: #58cdcd;
+
+@mixin room-locate ($id, $right, $top) {
+  .room-result#{$id} {
+    right: $right;
+    top: $top;
+  }
+}

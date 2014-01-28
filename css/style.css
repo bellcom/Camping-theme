@@ -252,7 +252,7 @@ h6 {
 
 /* line 241, ../sass/style.scss */
 .copyright {
- /* border-top: 1px dashed #e1e1e1;*/
+  border-top: 1px dashed #e1e1e1;
   margin: 20px 0 20px 0;
   padding: 20px 0 0 0;
 }

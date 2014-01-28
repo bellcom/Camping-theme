@@ -1,0 +1,15 @@
+@media (min-width: 767px) {
+  /* line 6, ../../sass/maps/laegaardenscamping.map.scss */
+  .page-camping #content,
+  .page-booking #content_result {
+    background: url("../images/maps/marinalystcamp.png") 100% 0 no-repeat no-repeat;
+  }
+}
+@media (min-width: 767px) {
+  /***  Room location ****/
+  /* line 12, ../../sass/_base.scss */
+  .room-result127 {
+    right: 54%;
+    top: 64%;
+  }
+}
