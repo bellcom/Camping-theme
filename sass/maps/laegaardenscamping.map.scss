@@ -29,70 +29,32 @@
   @include room-locate(7, 350px, 685px);
   @include room-locate(8, 318px, 685px);
   @include room-locate(9, 289px, 685px);
-  @include room-locate(9, 289px, 657px);
-  @include room-locate(10, 318px, 657px);
-  @include room-locate(11, 350px, 657px);
+  @include room-locate(10, 289px, 657px);
+  @include room-locate(11, 318px, 657px);
+  @include room-locate(12, 350px, 657px);
 
   // C
-  @include room-locate(11, 351px, 640px);
-  @include room-locate(12, 318px, 640px);
-  @include room-locate(13, 289px, 640px);
-  @include room-locate(14, 289px, 603px);
-  @include room-locate(15, 314px, 603px);
-  @include room-locate(16, 342px, 603px);
-  @include room-locate(17, 370px, 603px);
+  @include room-locate(13, 351px, 640px);
+  @include room-locate(14, 318px, 640px);
+  @include room-locate(15, 289px, 640px);
+  @include room-locate(16, 289px, 603px);
+  @include room-locate(17, 314px, 603px);
+  @include room-locate(18, 342px, 603px);
+  @include room-locate(19, 370px, 603px);
 
   // D
-  @include room-locate(18, 370px, 588px);
-  @include room-locate(19, 342px, 588px);
-  @include room-locate(20, 314px, 588px);
-  @include room-locate(21, 289px, 588px);
-  @include room-locate(22, 289px, 551px);
-  @include room-locate(23, 314px, 551px);
-  @include room-locate(24, 342px, 551px);
-  @include room-locate(25, 370px, 551px);
+  @include room-locate(20, 370px, 588px);
+  @include room-locate(21, 342px, 588px);
+  @include room-locate(22, 314px, 588px);
+  @include room-locate(23, 289px, 588px);
+  @include room-locate(24, 289px, 551px);
+  @include room-locate(25, 314px, 551px);
+  @include room-locate(26, 342px, 551px);
+  @include room-locate(27, 370px, 551px);
 
   // E
-  @include room-locate(26, 380px, 531px);
-  @include room-locate(27, 355px, 531px);
-  @include room-locate(28, 355px, 497px);
-  @include room-locate(29, 380px, 497px);
-
-  @include room-locate(21, 53%, 52.5%);
-  @include room-locate(22, 49%, 52.5%);
-  @include room-locate(23, 44%, 52.5%);
-  @include room-locate(24, 40%, 52.5%);
-  @include room-locate(25, 50%, 50%);
-  @include room-locate(26, 50%, 50%);
-  @include room-locate(27, 50%, 50%);
-  @include room-locate(28, 50%, 50%);
-  @include room-locate(29, 50%, 50%);
-  @include room-locate(30, 50%, 50%);
-  @include room-locate(31, 50%, 50%);
-  @include room-locate(32, 50%, 50%);
-  @include room-locate(33, 50%, 50%);
-  @include room-locate(34, 50%, 50%);
-  @include room-locate(35, 50%, 50%);
-  @include room-locate(36, 50%, 50%);
-  @include room-locate(37, 50%, 50%);
-  @include room-locate(38, 50%, 50%);
-  @include room-locate(39, 50%, 50%);
-  @include room-locate(40, 50%, 50%);
-  @include room-locate(41, 50%, 50%);
-  @include room-locate(42, 50%, 50%);
-  @include room-locate(43, 50%, 50%);
-  @include room-locate(44, 50%, 50%);
-  @include room-locate(45, 50%, 50%);
-  @include room-locate(46, 50%, 50%);
-  @include room-locate(47, 50%, 50%);
-  @include room-locate(48, 50%, 50%);
-  @include room-locate(49, 50%, 50%);
-  @include room-locate(50, 50%, 50%);
-  @include room-locate(51, 50%, 50%);
-  @include room-locate(52, 50%, 50%);
-  @include room-locate(53, 50%, 50%);
-  @include room-locate(54, 50%, 50%);
-  @include room-locate(55, 50%, 50%);
-  @include room-locate(56, 50%, 50%);
-  @include room-locate(57, 50%, 50%);
+  @include room-locate(28, 380px, 531px);
+  @include room-locate(29, 355px, 531px);
+  @include room-locate(30, 355px, 497px);
+  @include room-locate(31, 380px, 497px);
 }
