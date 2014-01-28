@@ -18,29 +18,46 @@
 
   /***  Room locations ****/
   // A
-  @include room-locate(1, 43%, 69.5%);
-  @include room-locate(2, 47.8%, 69.5%);
-  @include room-locate(3, 52.6%, 69.5%);
-  @include room-locate(4, 52.7%, 67.3%);
-  @include room-locate(5, 47.8%, 67.3%);
-  @include room-locate(6, 43%, 67.3%);
+  @include room-locate(1, 348px, 728px);
+  @include room-locate(2, 318px, 728px);
+  @include room-locate(3, 289px, 728px);
+  @include room-locate(4, 289px, 703px);
+  @include room-locate(5, 318px, 703px);
+  @include room-locate(6, 348px, 703px);
+
   // B
-  @include room-locate(7, 43%, 65.7%);
-  @include room-locate(8, 47.8%, 65.7%);
-  @include room-locate(9, 52.7%, 65.7%);
-  @include room-locate(10, 43%, 61%);
-  @include room-locate(11, 48%, 61%);
-  @include room-locate(12, 53%, 61%);
+  @include room-locate(7, 350px, 685px);
+  @include room-locate(8, 318px, 685px);
+  @include room-locate(9, 289px, 685px);
+  @include room-locate(9, 289px, 657px);
+  @include room-locate(10, 318px, 657px);
+  @include room-locate(11, 350px, 657px);
+
   // C
-  @include room-locate(13, 53%, 58%);
-  @include room-locate(14, 49%, 58%);
-  @include room-locate(15, 44%, 58%);
-  @include room-locate(16, 40%, 58%);
-  @include room-locate(17, 40%, 56%);
-  @include room-locate(18, 44%, 56%);
-  @include room-locate(19, 49%, 56%);
-  @include room-locate(20, 53%, 56%);
+  @include room-locate(11, 351px, 640px);
+  @include room-locate(12, 318px, 640px);
+  @include room-locate(13, 289px, 640px);
+  @include room-locate(14, 289px, 603px);
+  @include room-locate(15, 314px, 603px);
+  @include room-locate(16, 342px, 603px);
+  @include room-locate(17, 370px, 603px);
+
   // D
+  @include room-locate(18, 370px, 588px);
+  @include room-locate(19, 342px, 588px);
+  @include room-locate(20, 314px, 588px);
+  @include room-locate(21, 289px, 588px);
+  @include room-locate(22, 289px, 551px);
+  @include room-locate(23, 314px, 551px);
+  @include room-locate(24, 342px, 551px);
+  @include room-locate(25, 370px, 551px);
+
+  // E
+  @include room-locate(26, 380px, 531px);
+  @include room-locate(27, 355px, 531px);
+  @include room-locate(28, 355px, 497px);
+  @include room-locate(29, 380px, 497px);
+
   @include room-locate(21, 53%, 52.5%);
   @include room-locate(22, 49%, 52.5%);
   @include room-locate(23, 44%, 52.5%);
