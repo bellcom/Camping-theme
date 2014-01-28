@@ -10,7 +10,7 @@ $selection: #58cdcd;
 
 @mixin room-locate ($id, $left, $top) {
   .room-result#{$id} {
-    right: $left;
+    left: $left;
     top: $top;
   }
 }
