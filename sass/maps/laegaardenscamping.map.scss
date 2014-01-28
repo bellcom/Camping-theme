@@ -57,4 +57,47 @@
   @include room-locate(29, 355px, 531px);
   @include room-locate(30, 355px, 497px);
   @include room-locate(31, 380px, 497px);
+
+  // 166 - 169
+  @include room-locate(32, 325px, 490px);
+  @include room-locate(33, 291px, 490px);
+  @include room-locate(34, 291px, 529px);
+  @include room-locate(35, 325px, 529px);
+
+  // F
+  @include room-locate(36, 403px, 635px);
+  @include room-locate(37, 409px, 614px);
+  @include room-locate(38, 413px, 590px);
+  @include room-locate(39, 416px, 569px);
+
+  // G
+  @include room-locate(40, 431px, 651px);
+  @include room-locate(41, 439px, 625px);
+  @include room-locate(42, 446px, 599px);
+  @include room-locate(43, 451px, 571px);
+
+  // H
+  @include room-locate(44, 468px, 650px);
+  @include room-locate(45, 476px, 626px);
+  @include room-locate(46, 484px, 598px);
+  @include room-locate(47, 488px, 571px);
+
+  // I
+  @include room-locate(48, 501px, 525px);
+  @include room-locate(49, 507px, 597px);
+  @include room-locate(50, 511px, 572px);
+
+  // CY
+  @include room-locate(51, 428px, 705px);
+  @include room-locate(52, 435px, 686px);
+
+  // HY
+  @include room-locate(53, 435px, 743px);
+  @include room-locate(53, 477px, 747px);
+  @include room-locate(53, 480px, 712px);
+  @include room-locate(53, 490px, 685px);
+
+  // MO
+  @include room-locate(53, 495px, 655px);
+
 }
