@@ -133,29 +133,12 @@ body {
 }
 
 @media (min-width: 767px) and (max-width: 768px) {
-  #sidebar {
-    width: 100%;
-    overflow: hidden;
-  }
   form#rooms-booking-availability-search-form {
     width: 250px !important;
   }
   #content {
-    width: 620px;
     margin-left: 25px;
     margin-top: 30px;
-  }
-  .page-camping #content, .page-booking #content_result {
-    background-size: 100%;
-    height: 700px;
-    position: relative;
-  }
-  .view-camping-type {
-    height: 700px;
-    position: relative;
-  }
-  .page-camping .view-camping-type .views-field.views-field-link-unit span {
-    opacity: 0;
   }
 }
 
@@ -166,7 +149,6 @@ body {
   }
   .page-camping #content, .page-booking #content_result {
     background-size: 100%;
-    min-height: 700px;
     position: relative;
   }
   #content {
@@ -176,7 +158,6 @@ body {
     width: 940px !important;
   }
   .view-camping-type {
-    height: 700px;
     position: relative;
   }
   .page-camping .view-camping-type .views-field.views-field-link-unit span {

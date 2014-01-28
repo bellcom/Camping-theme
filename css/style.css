@@ -494,97 +494,70 @@ body {
 }
 @media (min-width: 767px) and (max-width: 768px) {
   /* line 136, ../sass/_custom.bellcom.scss */
-  #sidebar {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  /* line 140, ../sass/_custom.bellcom.scss */
   form#rooms-booking-availability-search-form {
     width: 250px !important;
   }
 
-  /* line 143, ../sass/_custom.bellcom.scss */
+  /* line 139, ../sass/_custom.bellcom.scss */
   #content {
-    width: 620px;
     margin-left: 25px;
     margin-top: 30px;
   }
-
-  /* line 148, ../sass/_custom.bellcom.scss */
-  .page-camping #content, .page-booking #content_result {
-    background-size: 100%;
-    height: 700px;
-    position: relative;
-  }
-
-  /* line 153, ../sass/_custom.bellcom.scss */
-  .view-camping-type {
-    height: 700px;
-    position: relative;
-  }
-
-  /* line 157, ../sass/_custom.bellcom.scss */
-  .page-camping .view-camping-type .views-field.views-field-link-unit span {
-    opacity: 0;
-  }
 }
 @media (min-width: 769px) {
-  /* line 163, ../sass/_custom.bellcom.scss */
+  /* line 146, ../sass/_custom.bellcom.scss */
   #sidebar {
     width: 250px;
     overflow: hidden;
   }
 
-  /* line 167, ../sass/_custom.bellcom.scss */
+  /* line 150, ../sass/_custom.bellcom.scss */
   .page-camping #content, .page-booking #content_result {
     background-size: 100%;
-    min-height: 700px;
     position: relative;
   }
 
-  /* line 172, ../sass/_custom.bellcom.scss */
+  /* line 154, ../sass/_custom.bellcom.scss */
   #content {
     width: 620px;
   }
 
-  /* line 175, ../sass/_custom.bellcom.scss */
+  /* line 157, ../sass/_custom.bellcom.scss */
   .container {
     width: 940px !important;
   }
 
-  /* line 178, ../sass/_custom.bellcom.scss */
+  /* line 160, ../sass/_custom.bellcom.scss */
   .view-camping-type {
-    height: 700px;
     position: relative;
   }
 
-  /* line 182, ../sass/_custom.bellcom.scss */
+  /* line 163, ../sass/_custom.bellcom.scss */
   .page-camping .view-camping-type .views-field.views-field-link-unit span {
     opacity: 0;
   }
 }
 /*** Camper type menu **/
-/* line 189, ../sass/_custom.bellcom.scss */
+/* line 170, ../sass/_custom.bellcom.scss */
 #block-menu-menu-camping-menu {
   *position: absolute;
   *top: 140px;
   margin-left: -0.5em;
   width: 100%;
 }
-/* line 191, ../sass/_custom.bellcom.scss */
+/* line 172, ../sass/_custom.bellcom.scss */
 #block-menu-menu-camping-menu .content li {
   list-style: none;
   line-height: 40px;
   border-top: 2px solid #fff;
 }
-/* line 196, ../sass/_custom.bellcom.scss */
+/* line 177, ../sass/_custom.bellcom.scss */
 #block-menu-menu-camping-menu .content ul {
   width: 100%;
   margin: 0;
 }
 
-/* line 207, ../sass/_custom.bellcom.scss */
+/* line 188, ../sass/_custom.bellcom.scss */
 #rooms-booking-manager-change-search-form input[type="submit"] {
   background: #009933;
   color: #fff;
@@ -593,22 +566,22 @@ body {
   border-radius: 8px;
 }
 
-/* line 215, ../sass/_custom.bellcom.scss */
+/* line 196, ../sass/_custom.bellcom.scss */
 #rooms-booking-availability-search-form .form-wrapper {
   *position: absolute;
   bottom: -500px;
 }
 
-/* line 221, ../sass/_custom.bellcom.scss */
+/* line 202, ../sass/_custom.bellcom.scss */
 #block-menu-menu-camping-menu .content li.first {
   background: url("../images/trailer.png") 0 center no-repeat #71b3c6;
 }
-/* line 224, ../sass/_custom.bellcom.scss */
+/* line 205, ../sass/_custom.bellcom.scss */
 #block-menu-menu-camping-menu .content li.last {
   background-color: #8F655C;
 }
 
-/* line 230, ../sass/_custom.bellcom.scss */
+/* line 211, ../sass/_custom.bellcom.scss */
 a.teltplads, a.campingovogn, a.autocamper, a.hytter, a.telt {
   color: #fff;
   margin-right: 15px;
@@ -619,20 +592,20 @@ a.teltplads, a.campingovogn, a.autocamper, a.hytter, a.telt {
 }
 
 /* Search form */
-/* line 242, ../sass/_custom.bellcom.scss */
+/* line 223, ../sass/_custom.bellcom.scss */
 .form-actions {
   *text-align: center;
   padding-left: 0;
   border: 0;
 }
 
-/* line 248, ../sass/_custom.bellcom.scss */
+/* line 229, ../sass/_custom.bellcom.scss */
 #edit-group-size-adults1, #edit-group-size-children1, #edit-group-size-adults1--2, #edit-group-size-children1--2 {
   position: absolute;
   right: 30px;
 }
 
-/* line 253, ../sass/_custom.bellcom.scss */
+/* line 234, ../sass/_custom.bellcom.scss */
 #rooms-booking-availability-search-form--2 .form-submit, #rooms-booking-availability-search-form .form-submit {
   padding-right: 100px;
   padding-left: 90px;
@@ -645,107 +618,107 @@ a.teltplads, a.campingovogn, a.autocamper, a.hytter, a.telt {
   font-weight: bold;
 }
 
-/* line 265, ../sass/_custom.bellcom.scss */
+/* line 246, ../sass/_custom.bellcom.scss */
 #edit-rooms-end-date--2 label, .form-item-rooms-start-date-date label, #edit-rooms-end-date label {
   display: none;
   width: 30px;
   padding-right: 10px;
 }
 
-/* line 271, ../sass/_custom.bellcom.scss */
+/* line 252, ../sass/_custom.bellcom.scss */
 .form-item-rooms-start-date label, .form-item-rooms-end-date label {
   float: left;
   width: 30px;
   padding-right: 10px;
 }
 
-/* line 277, ../sass/_custom.bellcom.scss */
+/* line 258, ../sass/_custom.bellcom.scss */
 form .container-inline-date .date-padding {
   padding: 0px;
 }
 
-/* line 281, ../sass/_custom.bellcom.scss */
+/* line 262, ../sass/_custom.bellcom.scss */
 #block-rooms-booking-manager-rooms-availability-search, form#rooms-booking-availability-search-form {
   width: 100%;
   position: relative;
   margin-left: 0.5em;
 }
 
-/* line 287, ../sass/_custom.bellcom.scss */
+/* line 268, ../sass/_custom.bellcom.scss */
 .form-type-select {
   *display: inline;
 }
 
-/* line 291, ../sass/_custom.bellcom.scss */
+/* line 272, ../sass/_custom.bellcom.scss */
 select {
   width: inherit;
 }
 
-/* line 295, ../sass/_custom.bellcom.scss */
+/* line 276, ../sass/_custom.bellcom.scss */
 label {
   display: inline;
 }
 
-/* line 299, ../sass/_custom.bellcom.scss */
+/* line 280, ../sass/_custom.bellcom.scss */
 #sidebar h2 {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 305, ../sass/_custom.bellcom.scss */
+/* line 286, ../sass/_custom.bellcom.scss */
 #content h2 {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 309, ../sass/_custom.bellcom.scss */
+/* line 290, ../sass/_custom.bellcom.scss */
 #content form#rooms-booking-availability-search-form {
   display: none;
 }
 
 /* Print */
-/* line 319, ../sass/_custom.bellcom.scss */
+/* line 300, ../sass/_custom.bellcom.scss */
 .entity-commerce-invoice .form-item.form-type-item {
   margin-left: 10px;
   float: left;
   width: 50%;
 }
-/* line 324, ../sass/_custom.bellcom.scss */
+/* line 305, ../sass/_custom.bellcom.scss */
 .entity-commerce-invoice .field-name-commerce-customer-billing {
   margin: 50px 30px;
   float: left;
   width: 100%;
 }
-/* line 329, ../sass/_custom.bellcom.scss */
+/* line 310, ../sass/_custom.bellcom.scss */
 .entity-commerce-invoice table.commerce-price-formatted-components {
   float: right;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 334, ../sass/_custom.bellcom.scss */
+/* line 315, ../sass/_custom.bellcom.scss */
 .entity-commerce-invoice .field-name-field-order-description {
   padding: 100px 0 0px 30px;
   float: left;
 }
 
-/* line 340, ../sass/_custom.bellcom.scss */
+/* line 321, ../sass/_custom.bellcom.scss */
 .page-admin-commerce-orders-fragtseddel-list .field-name-field-sender {
   margin-top: 30px;
 }
 
-/* line 344, ../sass/_custom.bellcom.scss */
+/* line 325, ../sass/_custom.bellcom.scss */
 .view-id-commerce_line_item_table {
   width: 100%;
   float: left;
 }
 
-/* line 349, ../sass/_custom.bellcom.scss */
+/* line 330, ../sass/_custom.bellcom.scss */
 .region-footer {
   text-align: center;
 }
 
 /** MAP **/
 @media (min-width: 767px) {
-  /* line 358, ../sass/_custom.bellcom.scss */
+  /* line 339, ../sass/_custom.bellcom.scss */
   .booking-result div.result-div {
     display: none;
     padding: 20px;
@@ -756,49 +729,49 @@ label {
     border: 3px solid #e3e3e3;
     border-radius: 7px;
   }
-  /* line 368, ../sass/_custom.bellcom.scss */
+  /* line 349, ../sass/_custom.bellcom.scss */
   .booking-result div.entity-rooms-unit {
     border-top: 3px solid #f9f9f9;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
-  /* line 374, ../sass/_custom.bellcom.scss */
+  /* line 355, ../sass/_custom.bellcom.scss */
   .booking-result form {
     border-bottom: 3px solid #f9f9f9;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
 
-  /* line 380, ../sass/_custom.bellcom.scss */
+  /* line 361, ../sass/_custom.bellcom.scss */
   .change-search {
     width: 100%;
     position: absolute;
     top: -40px;
   }
-  /* line 384, ../sass/_custom.bellcom.scss */
+  /* line 365, ../sass/_custom.bellcom.scss */
   .change-search div {
     width: 24%;
     float: left;
     font-weight: bold;
   }
 
-  /* line 390, ../sass/_custom.bellcom.scss */
+  /* line 371, ../sass/_custom.bellcom.scss */
   .booking-result {
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: red;
   }
-  /* line 395, ../sass/_custom.bellcom.scss */
+  /* line 376, ../sass/_custom.bellcom.scss */
   .booking-result.small {
     width: 10px !important;
   }
 
-  /* line 400, ../sass/_custom.bellcom.scss */
+  /* line 381, ../sass/_custom.bellcom.scss */
   .page-booking #content_result h2 {
     display: none;
   }
-  /* line 403, ../sass/_custom.bellcom.scss */
+  /* line 384, ../sass/_custom.bellcom.scss */
   .page-booking #content_result .booking-result h2 {
     background: url("../images/close.png") 100% 0 no-repeat;
     display: inherit;

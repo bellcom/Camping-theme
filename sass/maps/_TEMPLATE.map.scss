@@ -6,6 +6,13 @@
   .page-booking #content_result {
     background: url('../images/maps/XXX.png') 100% 0 no-repeat no-repeat;
   }
+  .page-camping #content, .page-booking #content_result {
+    /** Adjust to height of background map **/
+    min-height: 700px;
+  }
+  .view-camping-type {
+    height: 700px;
+  }
 }
 
 @media (min-width:767px) {

@@ -4,760 +4,770 @@
   .page-booking #content_result {
     background: url("../../images/maps/marinalystcamp.png") 100% 0 no-repeat no-repeat;
   }
+
+  /* line 9, ../../sass/maps/marinalystcamp.map.scss */
+  .page-camping #content, .page-booking #content_result {
+    min-height: 700px;
+  }
+
+  /* line 12, ../../sass/maps/marinalystcamp.map.scss */
+  .view-camping-type {
+    height: 700px;
+  }
 }
 @media (min-width: 767px) {
   /***  Room locations ****/
-  /* line 14, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 20, ../../sass/maps/marinalystcamp.map.scss */
   .room-result127 {
     right: 54%;
     top: 64%;
   }
 
-  /* line 15, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 21, ../../sass/maps/marinalystcamp.map.scss */
   .room-result128 {
     right: 55%;
     top: 62%;
   }
 
-  /* line 16, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 22, ../../sass/maps/marinalystcamp.map.scss */
   .room-result129 {
     right: 56%;
     top: 59%;
   }
 
-  /* line 17, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 23, ../../sass/maps/marinalystcamp.map.scss */
   .room-result130 {
     right: 57%;
     top: 57%;
   }
 
-  /* line 18, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 24, ../../sass/maps/marinalystcamp.map.scss */
   .room-result5 {
     right: 35%;
     top: 53%;
   }
 
-  /* line 19, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 25, ../../sass/maps/marinalystcamp.map.scss */
   .room-result6 {
     right: 34%;
     top: 56%;
   }
 
-  /* line 20, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 26, ../../sass/maps/marinalystcamp.map.scss */
   .room-result7 {
     right: 34%;
     top: 59%;
   }
 
-  /* line 21, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 27, ../../sass/maps/marinalystcamp.map.scss */
   .room-result8 {
     right: 33.5%;
     top: 62%;
   }
 
-  /* line 22, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 28, ../../sass/maps/marinalystcamp.map.scss */
   .room-result9 {
     right: 37%;
     top: 63%;
   }
 
-  /* line 23, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 29, ../../sass/maps/marinalystcamp.map.scss */
   .room-result10 {
     right: 37%;
     top: 59%;
   }
 
-  /* line 24, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 30, ../../sass/maps/marinalystcamp.map.scss */
   .room-result11 {
     right: 37%;
     top: 55%;
   }
 
-  /* line 25, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 31, ../../sass/maps/marinalystcamp.map.scss */
   .room-result12 {
     right: 41%;
     top: 32.5%;
   }
 
-  /* line 26, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 32, ../../sass/maps/marinalystcamp.map.scss */
   .room-result13 {
     right: 41.5%;
     top: 28.5%;
   }
 
-  /* line 27, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 33, ../../sass/maps/marinalystcamp.map.scss */
   .room-result14 {
     right: 42%;
     top: 30.5%;
   }
 
-  /* line 28, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 34, ../../sass/maps/marinalystcamp.map.scss */
   .room-result15 {
     right: 42%;
     top: 25.5%;
   }
 
-  /* line 29, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 35, ../../sass/maps/marinalystcamp.map.scss */
   .room-result16 {
     right: 42%;
     top: 22%;
   }
 
-  /* line 30, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 36, ../../sass/maps/marinalystcamp.map.scss */
   .room-result17 {
     right: 43%;
     top: 19.5%;
   }
 
-  /* line 31, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 37, ../../sass/maps/marinalystcamp.map.scss */
   .room-result18 {
     right: 44%;
     top: 16.7%;
   }
 
-  /* line 32, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 38, ../../sass/maps/marinalystcamp.map.scss */
   .room-result19 {
     right: 45%;
     top: 14%;
   }
 
-  /* line 33, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 39, ../../sass/maps/marinalystcamp.map.scss */
   .room-result20 {
     right: 45%;
     top: 11%;
   }
 
-  /* line 34, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 40, ../../sass/maps/marinalystcamp.map.scss */
   .room-result21 {
     right: 46%;
     top: 8.5%;
   }
 
-  /* line 35, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 41, ../../sass/maps/marinalystcamp.map.scss */
   .room-result22 {
     right: 49.5%;
     top: 9%;
   }
 
-  /* line 36, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 42, ../../sass/maps/marinalystcamp.map.scss */
   .room-result23 {
     right: 48%;
     top: 18%;
   }
 
-  /* line 37, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 43, ../../sass/maps/marinalystcamp.map.scss */
   .room-result24 {
     right: 48.5%;
     top: 14%;
   }
 
-  /* line 38, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 44, ../../sass/maps/marinalystcamp.map.scss */
   .room-result25 {
     right: 47%;
     top: 25%;
   }
 
-  /* line 39, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 45, ../../sass/maps/marinalystcamp.map.scss */
   .room-result26 {
     right: 46%;
     top: 30%;
   }
 
-  /* line 40, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 46, ../../sass/maps/marinalystcamp.map.scss */
   .room-result27 {
     right: 47%;
     top: 22%;
   }
 
-  /* line 41, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 47, ../../sass/maps/marinalystcamp.map.scss */
   .room-result28 {
     right: 46%;
     top: 28%;
   }
 
-  /* line 42, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 48, ../../sass/maps/marinalystcamp.map.scss */
   .room-result29 {
     right: 45%;
     top: 33%;
   }
 
-  /* line 43, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 49, ../../sass/maps/marinalystcamp.map.scss */
   .room-result30 {
     right: 48%;
     top: 33%;
   }
 
-  /* line 44, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 50, ../../sass/maps/marinalystcamp.map.scss */
   .room-result31 {
     right: 48%;
     top: 30%;
   }
 
-  /* line 45, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 51, ../../sass/maps/marinalystcamp.map.scss */
   .room-result32 {
     right: 48%;
     top: 28%;
   }
 
-  /* line 46, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 52, ../../sass/maps/marinalystcamp.map.scss */
   .room-result33 {
     right: 49.5%;
     top: 25%;
   }
 
-  /* line 47, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 53, ../../sass/maps/marinalystcamp.map.scss */
   .room-result34 {
     right: 50%;
     top: 22%;
   }
 
-  /* line 48, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 54, ../../sass/maps/marinalystcamp.map.scss */
   .room-result35 {
     right: 50.5%;
     top: 18%;
   }
 
-  /* line 49, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 55, ../../sass/maps/marinalystcamp.map.scss */
   .room-result36 {
     right: 51%;
     top: 15%;
   }
 
-  /* line 50, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 56, ../../sass/maps/marinalystcamp.map.scss */
   .room-result37 {
     right: 51.5%;
     top: 12%;
   }
 
-  /* line 51, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 57, ../../sass/maps/marinalystcamp.map.scss */
   .room-result38 {
     right: 52%;
     top: 9%;
   }
 
-  /* line 52, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 58, ../../sass/maps/marinalystcamp.map.scss */
   .room-result39 {
     right: 53.5%;
     top: 16%;
   }
 
-  /* line 53, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 59, ../../sass/maps/marinalystcamp.map.scss */
   .room-result40 {
     right: 56%;
     top: 16%;
   }
 
-  /* line 55, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 61, ../../sass/maps/marinalystcamp.map.scss */
   .room-result41 {
     right: 62%;
     top: 20%;
   }
 
-  /* line 56, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 62, ../../sass/maps/marinalystcamp.map.scss */
   .room-result42 {
     right: 63%;
     top: 22.5%;
   }
 
-  /* line 57, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 63, ../../sass/maps/marinalystcamp.map.scss */
   .room-result43 {
     right: 65%;
     top: 25%;
   }
 
-  /* line 59, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 65, ../../sass/maps/marinalystcamp.map.scss */
   .room-result44 {
     right: 62%;
     top: 28%;
   }
 
-  /* line 60, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 66, ../../sass/maps/marinalystcamp.map.scss */
   .room-result45 {
     right: 59%;
     top: 27%;
   }
 
-  /* line 61, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 67, ../../sass/maps/marinalystcamp.map.scss */
   .room-result46 {
     right: 56%;
     top: 27%;
   }
 
-  /* line 62, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 68, ../../sass/maps/marinalystcamp.map.scss */
   .room-result47 {
     right: 56%;
     top: 24%;
   }
 
-  /* line 63, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 69, ../../sass/maps/marinalystcamp.map.scss */
   .room-result48 {
     right: 57%;
     top: 22%;
   }
 
-  /* line 64, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 70, ../../sass/maps/marinalystcamp.map.scss */
   .room-result49 {
     right: 54%;
     top: 22%;
   }
 
-  /* line 65, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 71, ../../sass/maps/marinalystcamp.map.scss */
   .room-result50 {
     right: 53%;
     top: 24%;
   }
 
-  /* line 66, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 72, ../../sass/maps/marinalystcamp.map.scss */
   .room-result51 {
     right: 53%;
     top: 26%;
   }
 
-  /* line 67, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 73, ../../sass/maps/marinalystcamp.map.scss */
   .room-result52 {
     right: 52%;
     top: 31.5%;
   }
 
-  /* line 68, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 74, ../../sass/maps/marinalystcamp.map.scss */
   .room-result53 {
     right: 55%;
     top: 32%;
   }
 
-  /* line 69, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 75, ../../sass/maps/marinalystcamp.map.scss */
   .room-result54 {
     right: 58%;
     top: 32.5%;
   }
 
-  /* line 70, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 76, ../../sass/maps/marinalystcamp.map.scss */
   .room-result55 {
     right: 60.5%;
     top: 32.5%;
   }
 
-  /* line 72, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 78, ../../sass/maps/marinalystcamp.map.scss */
   .room-result56 {
     right: 67%;
     top: 27%;
   }
 
-  /* line 73, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 79, ../../sass/maps/marinalystcamp.map.scss */
   .room-result57 {
     right: 67%;
     top: 29%;
   }
 
-  /* line 74, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 80, ../../sass/maps/marinalystcamp.map.scss */
   .room-result58 {
     right: 66%;
     top: 32%;
   }
 
-  /* line 75, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 81, ../../sass/maps/marinalystcamp.map.scss */
   .room-result59 {
     right: 65%;
     top: 34%;
   }
 
-  /* line 76, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 82, ../../sass/maps/marinalystcamp.map.scss */
   .room-result60 {
     right: 63%;
     top: 38.5%;
   }
 
-  /* line 78, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 84, ../../sass/maps/marinalystcamp.map.scss */
   .room-result61 {
     right: 59%;
     top: 38%;
   }
 
-  /* line 79, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 85, ../../sass/maps/marinalystcamp.map.scss */
   .room-result62 {
     right: 56%;
     top: 37.5%;
   }
 
-  /* line 80, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 86, ../../sass/maps/marinalystcamp.map.scss */
   .room-result63 {
     right: 53%;
     top: 37%;
   }
 
-  /* line 81, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 87, ../../sass/maps/marinalystcamp.map.scss */
   .room-result64 {
     right: 51%;
     top: 37%;
   }
 
-  /* line 82, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 88, ../../sass/maps/marinalystcamp.map.scss */
   .room-result65 {
     right: 51%;
     top: 39%;
   }
 
-  /* line 83, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 89, ../../sass/maps/marinalystcamp.map.scss */
   .room-result66 {
     right: 53%;
     top: 39%;
   }
 
-  /* line 84, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 90, ../../sass/maps/marinalystcamp.map.scss */
   .room-result67 {
     right: 56%;
     top: 39.5%;
   }
 
-  /* line 85, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 91, ../../sass/maps/marinalystcamp.map.scss */
   .room-result68 {
     right: 58.5%;
     top: 40%;
   }
 
-  /* line 86, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 92, ../../sass/maps/marinalystcamp.map.scss */
   .room-result69 {
     right: 61%;
     top: 40%;
   }
 
-  /* line 88, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 94, ../../sass/maps/marinalystcamp.map.scss */
   .room-result70 {
     right: 56%;
     top: 45%;
   }
 
-  /* line 89, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 95, ../../sass/maps/marinalystcamp.map.scss */
   .room-result71 {
     right: 53%;
     top: 45%;
   }
 
-  /* line 90, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 96, ../../sass/maps/marinalystcamp.map.scss */
   .room-result72 {
     right: 50%;
     top: 45%;
   }
 
-  /* line 91, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 97, ../../sass/maps/marinalystcamp.map.scss */
   .room-result73 {
     right: 49.5%;
     top: 47%;
   }
 
-  /* line 92, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 98, ../../sass/maps/marinalystcamp.map.scss */
   .room-result74 {
     right: 52%;
     top: 48%;
   }
 
-  /* line 93, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 99, ../../sass/maps/marinalystcamp.map.scss */
   .room-result75 {
     right: 54.5%;
     top: 48%;
   }
 
-  /* line 95, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 101, ../../sass/maps/marinalystcamp.map.scss */
   .room-result76 {
     right: 60%;
     top: 46%;
   }
 
-  /* line 96, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 102, ../../sass/maps/marinalystcamp.map.scss */
   .room-result77 {
     right: 58.5%;
     top: 48%;
   }
 
-  /* line 97, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 103, ../../sass/maps/marinalystcamp.map.scss */
   .room-result78 {
     right: 58%;
     top: 51%;
   }
 
-  /* line 98, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 104, ../../sass/maps/marinalystcamp.map.scss */
   .room-result79 {
     right: 56%;
     top: 53%;
   }
 
-  /* line 99, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 105, ../../sass/maps/marinalystcamp.map.scss */
   .room-result80 {
     right: 53%;
     top: 53%;
   }
 
-  /* line 101, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 107, ../../sass/maps/marinalystcamp.map.scss */
   .room-result81 {
     right: 50%;
     top: 53%;
   }
 
-  /* line 102, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 108, ../../sass/maps/marinalystcamp.map.scss */
   .room-result82 {
     right: 47.5%;
     top: 52.5%;
   }
 
-  /* line 103, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 109, ../../sass/maps/marinalystcamp.map.scss */
   .room-result83 {
     right: 47%;
     top: 55%;
   }
 
-  /* line 104, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 110, ../../sass/maps/marinalystcamp.map.scss */
   .room-result84 {
     right: 50%;
     top: 55.5%;
   }
 
-  /* line 105, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 111, ../../sass/maps/marinalystcamp.map.scss */
   .room-result85 {
     right: 52.5%;
     top: 55.5%;
   }
 
-  /* line 107, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 113, ../../sass/maps/marinalystcamp.map.scss */
   .room-result86 {
     right: 52%;
     top: 66%;
   }
 
-  /* line 108, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 114, ../../sass/maps/marinalystcamp.map.scss */
   .room-result87 {
     right: 51.5%;
     top: 69%;
   }
 
-  /* line 109, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 115, ../../sass/maps/marinalystcamp.map.scss */
   .room-result88 {
     right: 49%;
     top: 67%;
   }
 
-  /* line 110, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 116, ../../sass/maps/marinalystcamp.map.scss */
   .room-result89 {
     right: 46.5%;
     top: 67%;
   }
 
-  /* line 111, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 117, ../../sass/maps/marinalystcamp.map.scss */
   .room-result90 {
     right: 44%;
     top: 67%;
   }
 
-  /* line 112, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 118, ../../sass/maps/marinalystcamp.map.scss */
   .room-result91 {
     right: 44%;
     top: 64%;
   }
 
-  /* line 113, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 119, ../../sass/maps/marinalystcamp.map.scss */
   .room-result92 {
     right: 46.5%;
     top: 64%;
   }
 
-  /* line 114, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 120, ../../sass/maps/marinalystcamp.map.scss */
   .room-result93 {
     right: 49%;
     top: 64%;
   }
 
-  /* line 115, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 121, ../../sass/maps/marinalystcamp.map.scss */
   .room-result94 {
     right: 50%;
     top: 61%;
   }
 
-  /* line 116, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 122, ../../sass/maps/marinalystcamp.map.scss */
   .room-result95 {
     right: 47%;
     top: 61%;
   }
 
-  /* line 117, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 123, ../../sass/maps/marinalystcamp.map.scss */
   .room-result96 {
     right: 45%;
     top: 61%;
   }
 
-  /* line 119, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 125, ../../sass/maps/marinalystcamp.map.scss */
   .room-result97 {
     right: 40%;
     top: 66%;
   }
 
-  /* line 120, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 126, ../../sass/maps/marinalystcamp.map.scss */
   .room-result98 {
     right: 40%;
     top: 64%;
   }
 
-  /* line 121, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 127, ../../sass/maps/marinalystcamp.map.scss */
   .room-result99 {
     right: 41%;
     top: 61%;
   }
 
-  /* line 122, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 128, ../../sass/maps/marinalystcamp.map.scss */
   .room-result100 {
     right: 41%;
     top: 58%;
   }
 
-  /* line 124, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 130, ../../sass/maps/marinalystcamp.map.scss */
   .room-result101 {
     right: 42%;
     top: 56%;
   }
 
-  /* line 125, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 131, ../../sass/maps/marinalystcamp.map.scss */
   .room-result102 {
     right: 31%;
     top: 69%;
   }
 
-  /* line 126, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 132, ../../sass/maps/marinalystcamp.map.scss */
   .room-result103 {
     right: 31%;
     top: 72%;
   }
 
-  /* line 127, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 133, ../../sass/maps/marinalystcamp.map.scss */
   .room-result104 {
     right: 30%;
     top: 75%;
   }
 
-  /* line 128, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 134, ../../sass/maps/marinalystcamp.map.scss */
   .room-result105 {
     right: 35%;
     top: 69%;
   }
 
-  /* line 129, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 135, ../../sass/maps/marinalystcamp.map.scss */
   .room-result106 {
     right: 34%;
     top: 72%;
   }
 
-  /* line 130, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 136, ../../sass/maps/marinalystcamp.map.scss */
   .room-result107 {
     right: 34%;
     top: 74%;
   }
 
-  /* line 131, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 137, ../../sass/maps/marinalystcamp.map.scss */
   .room-result108 {
     right: 34%;
     top: 77%;
   }
 
-  /* line 132, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 138, ../../sass/maps/marinalystcamp.map.scss */
   .room-result109 {
     right: 40%;
     top: 69%;
   }
 
-  /* line 133, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 139, ../../sass/maps/marinalystcamp.map.scss */
   .room-result110 {
     right: 40%;
     top: 72%;
   }
 
-  /* line 134, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 140, ../../sass/maps/marinalystcamp.map.scss */
   .room-result111 {
     right: 38%;
     top: 75%;
   }
 
-  /* line 135, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 141, ../../sass/maps/marinalystcamp.map.scss */
   .room-result112 {
     right: 37%;
     top: 78%;
   }
 
-  /* line 137, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 143, ../../sass/maps/marinalystcamp.map.scss */
   .room-result113 {
     right: 45.5%;
     top: 75%;
   }
 
-  /* line 138, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 144, ../../sass/maps/marinalystcamp.map.scss */
   .room-result114 {
     right: 47%;
     top: 76.5%;
   }
 
-  /* line 139, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 145, ../../sass/maps/marinalystcamp.map.scss */
   .room-result115 {
     right: 43.5%;
     top: 76%;
   }
 
-  /* line 140, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 146, ../../sass/maps/marinalystcamp.map.scss */
   .room-result116 {
     right: 44%;
     top: 78%;
   }
 
-  /* line 141, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 147, ../../sass/maps/marinalystcamp.map.scss */
   .room-result117 {
     right: 46.5%;
     top: 78%;
   }
 
-  /* line 142, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 148, ../../sass/maps/marinalystcamp.map.scss */
   .room-result118 {
     right: 45%;
     top: 79.5%;
   }
 
-  /* line 143, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 149, ../../sass/maps/marinalystcamp.map.scss */
   .room-result119 {
     right: 43%;
     top: 81.3%;
   }
 
-  /* line 144, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 150, ../../sass/maps/marinalystcamp.map.scss */
   .room-result120 {
     right: 41%;
     top: 83%;
   }
 
-  /* line 145, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 151, ../../sass/maps/marinalystcamp.map.scss */
   .room-result121 {
     right: 43%;
     top: 83%;
   }
 
-  /* line 146, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 152, ../../sass/maps/marinalystcamp.map.scss */
   .room-result122 {
     right: 45%;
     top: 83%;
   }
 
-  /* line 147, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 153, ../../sass/maps/marinalystcamp.map.scss */
   .room-result123 {
     right: 45%;
     top: 85%;
   }
 
-  /* line 148, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 154, ../../sass/maps/marinalystcamp.map.scss */
   .room-result124 {
     right: 41%;
     top: 85%;
   }
 
-  /* line 149, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 155, ../../sass/maps/marinalystcamp.map.scss */
   .room-result125 {
     right: 43%;
     top: 85%;
   }
 
-  /* line 150, ../../sass/maps/marinalystcamp.map.scss */
+  /* line 156, ../../sass/maps/marinalystcamp.map.scss */
   .room-result126 {
     right: 42.5%;
     top: 86.5%;

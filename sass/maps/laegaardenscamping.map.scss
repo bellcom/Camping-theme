@@ -6,6 +6,12 @@
   .page-booking #content_result {
     background: url('../../images/maps/laegaardenscamping.jpg') 100% 0 no-repeat no-repeat;
   }
+  .page-camping #content, .page-booking #content_result {
+    min-height: 1040px;
+  }
+  .view-camping-type {
+    height: 1040px;
+  }
 }
 
 @media (min-width:767px) {

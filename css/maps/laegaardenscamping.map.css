@@ -4,6 +4,16 @@
   .page-booking #content_result {
     background: url("../../images/maps/laegaardenscamping.jpg") 100% 0 no-repeat no-repeat;
   }
+
+  /* line 9, ../../sass/maps/laegaardenscamping.map.scss */
+  .page-camping #content, .page-booking #content_result {
+    min-height: 1040px;
+  }
+
+  /* line 12, ../../sass/maps/laegaardenscamping.map.scss */
+  .view-camping-type {
+    height: 1040px;
+  }
 }
 @media (min-width: 767px) {
   /***  Room locations ****/

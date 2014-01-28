@@ -6,6 +6,12 @@
   .page-booking #content_result {
     background: url('../../images/maps/marinalystcamp.png') 100% 0 no-repeat no-repeat;
   }
+  .page-camping #content, .page-booking #content_result {
+    min-height: 700px;
+  }
+  .view-camping-type {
+    height: 700px;
+  }
 }
 
 @media (min-width:767px) {
