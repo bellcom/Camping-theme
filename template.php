@@ -11,7 +11,7 @@ function camping_preprocess_html(&$variables) {
   _camping_load_bootstrap();
 
   if ($css = theme_get_setting('camping_css_file_name','camping')) {
-    drupal_add_css(drupal_get_path('theme', 'Camping') . '/css/' . $css);
+    drupal_add_css(drupal_get_path('theme', 'Camping') . '/css/maps/' . $css);
   }
 }
 
@@ -84,7 +84,7 @@ function camping_preprocess_page(&$variables) {
 
 /**
  * Theme override.
- * 
+ *
  * Add custom class to image styles.
  */
 function camping_image_style($variables) {
