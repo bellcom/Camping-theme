@@ -2,7 +2,7 @@
   /* line 6, ../../sass/maps/marinalystcamp.map.scss */
   .page-camping #content,
   .page-booking #content_result {
-    background: url("../images/maps/marinalystcamp.png") 100% 0 no-repeat no-repeat;
+    background: url("../../images/maps/marinalystcamp.png") 100% 0 no-repeat no-repeat;
   }
 }
 @media (min-width: 767px) {
