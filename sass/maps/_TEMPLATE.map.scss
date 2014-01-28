@@ -4,13 +4,13 @@
 
   .page-camping  #content,
   .page-booking #content_result {
-    background: url('../images/maps/marinalystcamp.png') 100% 0 no-repeat no-repeat;
+    background: url('../images/maps/XXX.png') 100% 0 no-repeat no-repeat;
   }
 }
 
 @media (min-width:767px) {
 
   /***  Room locations ****/
-  @include room-locate(127, 54%, 64%);
+  // @include room-locate(127, 54%, 64%);
 
 }
