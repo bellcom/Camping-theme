@@ -163,6 +163,15 @@ function camping_form_system_theme_settings_alter(&$form, &$form_state) {
   else {
     $form['camping_settings']['carousel']['#description'] = t('Bootstrap carousel requires minimum jQuery version of 1.7 or higher. You must manually set this in the configuration by downloading and enabling the <a href="https://drupal.org/project/jquery_update" target="_blank">jQuery Update</a> -7.x-2.3 or higher.');
   }
+
+  $form['theme_settings']['camping_css_file_name'] = array(
+    '#type'     => 'textfield',
+    '#title'    => t('Camping CSS file name'),
+    '#description' => t('The filename of the css located in THEME/css/ folder.'),
+    '#required' => FALSE,
+    '#default_value' => theme_get_setting('camping_css_file_name'), 
+  );
+
   return $form;
 }
 
