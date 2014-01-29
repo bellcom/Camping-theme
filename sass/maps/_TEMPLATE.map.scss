@@ -4,6 +4,7 @@
 
   .page-camping  #content,
   .page-booking #content_result {
+    // Change this URL to use YOUR site's map.
     background: url('../images/maps/XXX.png') 100% 0 no-repeat no-repeat;
   }
   .page-camping #content, .page-booking #content_result {
@@ -18,6 +19,24 @@
 @media (min-width:767px) {
 
   /***  Room locations ****/
-  // @include room-locate(127, 54%, 64%);
+
+  // Add a room-locate for each room (camping unit).
+  // The room-locate subtracts an offset of default 3px, this to center the dot correctly.
+  //
+  // @include room-locate(127, 500px, 200px);
+  //
+  // .room-result127 {
+  //   left: 497px;
+  //   top: 197px;
+  // }
+  //
+  // You can override the offset:
+  // @include room-locate(127, 500px, 200px, 0px);
+  //
+  // .room-result127 {
+  //   left: 500px;
+  //   top: 200px;
+  // }
+  //
 
 }

@@ -8,15 +8,15 @@ $hovergray: #383838;
 $divider: #E1E1E1;
 $selection: #58cdcd;
 
-@mixin room-locate ($id, $left, $top) {
+@mixin room-locate ($id, $left, $top, $offset : 3px) {
   .room-result#{$id} {
-    left: $left;
-    top: $top;
+    left: $left - $offset;
+    top: $top - $offset;
   }
 }
-@mixin room-locate-right ($id, $right, $top) {
+@mixin room-locate-right ($id, $right, $top, $offset : 3px) {
   .room-result#{$id} {
-    right: $right;
-    top: $top;
+    right: $right + $offset;
+    top: $top - $offset;
   }
 }
