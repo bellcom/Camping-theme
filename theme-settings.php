@@ -167,7 +167,7 @@ function camping_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['theme_settings']['camping_css_file_name'] = array(
     '#type'     => 'textfield',
     '#title'    => t('Camping CSS file name'),
-    '#description' => t('The filename of the css located in THEME/css/ folder.'),
+    '#description' => t('The filename of the css located in THEME/css/maps/ folder.'),
     '#required' => FALSE,
     '#default_value' => theme_get_setting('camping_css_file_name'), 
   );
