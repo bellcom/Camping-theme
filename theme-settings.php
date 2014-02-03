@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Theme settings for Breadcrump and Social Block. 
+ * Theme settings for Breadcrump and Social Block.
  */
 
 /**
@@ -169,7 +169,14 @@ function camping_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title'    => t('Camping CSS file name'),
     '#description' => t('The filename of the css located in THEME/css/maps/ folder.'),
     '#required' => FALSE,
-    '#default_value' => theme_get_setting('camping_css_file_name'), 
+    '#default_value' => theme_get_setting('camping_css_file_name'),
+  );
+
+  $form['theme_settings']['camping_enable_active_map'] = array(
+    '#type'     => 'checkbox',
+    '#title'    => t('Enable active map'),
+    '#required' => FALSE,
+    '#default_value' => theme_get_setting('camping_enable_active_map', TRUE),
   );
 
   return $form;
