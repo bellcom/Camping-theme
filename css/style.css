@@ -718,8 +718,8 @@ label {
 
 /** MAP **/
 @media (min-width: 767px) {
-  /* line 339, ../sass/_custom.bellcom.scss */
-  .booking-result div.result-div {
+  /* line 341, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .booking-result div.result-div {
     display: none;
     padding: 20px;
     position: fixed;
@@ -729,51 +729,49 @@ label {
     border: 3px solid #e3e3e3;
     border-radius: 7px;
   }
-  /* line 349, ../sass/_custom.bellcom.scss */
-  .booking-result div.entity-rooms-unit {
+  /* line 351, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .booking-result div.entity-rooms-unit {
     border-top: 3px solid #f9f9f9;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
-  /* line 355, ../sass/_custom.bellcom.scss */
-  .booking-result form {
+  /* line 357, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .booking-result form {
     border-bottom: 3px solid #f9f9f9;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
-
-  /* line 361, ../sass/_custom.bellcom.scss */
-  .change-search {
-    width: 100%;
-    position: absolute;
-    top: -40px;
-  }
-  /* line 365, ../sass/_custom.bellcom.scss */
-  .change-search div {
-    width: 24%;
-    float: left;
-    font-weight: bold;
-  }
-
-  /* line 371, ../sass/_custom.bellcom.scss */
-  .booking-result {
+  /* line 363, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .booking-result {
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: red;
   }
-  /* line 376, ../sass/_custom.bellcom.scss */
-  .booking-result.small {
+  /* line 368, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .booking-result.small {
     width: 10px !important;
   }
-
-  /* line 381, ../sass/_custom.bellcom.scss */
-  .page-booking #content_result h2 {
+  /* line 373, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .page-booking #content_result h2 {
     display: none;
   }
-  /* line 384, ../sass/_custom.bellcom.scss */
-  .page-booking #content_result .booking-result h2 {
+  /* line 376, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .page-booking #content_result .booking-result h2 {
     background: url("../images/close.png") 100% 0 no-repeat;
     display: inherit;
+  }
+
+  /* line 382, ../sass/_custom.bellcom.scss */
+  .change-search {
+    width: 100%;
+    position: absolute;
+    top: -40px;
+  }
+  /* line 386, ../sass/_custom.bellcom.scss */
+  .change-search div {
+    width: 24%;
+    float: left;
+    font-weight: bold;
   }
 }

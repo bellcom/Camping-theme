@@ -334,28 +334,49 @@ label {
 /** MAP **/
 
 @media (min-width: 767px) {
-  .booking-result {
-    div {
-      &.result-div {
-        display: none;
-        padding: 20px;
-        position: fixed;
-        top: 200px;
-        right: 150px;
-        width: 400px;
-        border: 3px solid #e3e3e3;
-        border-radius: 7px;
+  body.active-map-enabled {
+
+    .booking-result {
+      div {
+        &.result-div {
+          display: none;
+          padding: 20px;
+          position: fixed;
+          top: 200px;
+          right: 150px;
+          width: 400px;
+          border: 3px solid #e3e3e3;
+          border-radius: 7px;
+        }
+        &.entity-rooms-unit {
+          border-top: 3px solid #f9f9f9;
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
       }
-      &.entity-rooms-unit {
-        border-top: 3px solid #f9f9f9;
-        border-top-right-radius: 5px;
-        border-top-left-radius: 5px;
+      form {
+        border-bottom: 3px solid #f9f9f9;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
       }
     }
-    form {
-      border-bottom: 3px solid #f9f9f9;
-      border-bottom-right-radius: 5px;
-      border-bottom-left-radius: 5px;
+    .booking-result {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: red;
+      &.small {
+        width: 10px !important;
+      }
+    }
+    .page-booking #content_result {
+      h2 {
+        display: none;
+      }
+      .booking-result h2 {
+        background: url('../images/close.png') 100% 0 no-repeat;
+        display: inherit;
+      }
     }
   }
   .change-search {
@@ -366,24 +387,6 @@ label {
       width: 24%;
       float: left;
       font-weight: bold;
-    }
-  }
-  .booking-result {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    &.small {
-      width: 10px !important;
-    }
-  }
-  .page-booking #content_result {
-    h2 {
-      display: none;
-    }
-    .booking-result h2 {
-      background: url('../images/close.png') 100% 0 no-repeat;
-      display: inherit;
     }
   }
 }
