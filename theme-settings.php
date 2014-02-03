@@ -175,8 +175,7 @@ function camping_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['theme_settings']['camping_enable_active_map'] = array(
     '#type'     => 'checkbox',
     '#title'    => t('Enable active map'),
-    '#required' => FALSE,
-    '#default_value' => theme_get_setting('camping_enable_active_map', TRUE),
+    '#default_value' => theme_get_setting('camping_enable_active_map'),
   );
 
   return $form;
