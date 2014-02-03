@@ -14,7 +14,7 @@ function camping_preprocess_html(&$variables) {
     drupal_add_css(drupal_get_path('theme', 'Camping') . '/css/maps/' . $css);
   }
   if (theme_get_setting('camping_enable_active_map')) {
-    $vars['classes_array'][] = 'active-map-enabled';
+    $variables['classes_array'][] = 'active-map-enabled';
   }
 }
 
