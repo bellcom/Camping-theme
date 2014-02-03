@@ -753,11 +753,11 @@ label {
     width: 10px !important;
   }
   /* line 373, ../sass/_custom.bellcom.scss */
-  body.active-map-enabled .page-booking #content_result h2 {
+  body.active-map-enabled.page-booking #content_result h2 {
     display: none;
   }
   /* line 376, ../sass/_custom.bellcom.scss */
-  body.active-map-enabled .page-booking #content_result .booking-result h2 {
+  body.active-map-enabled.page-booking #content_result .booking-result h2 {
     background: url("../images/close.png") 100% 0 no-repeat;
     display: inherit;
   }
