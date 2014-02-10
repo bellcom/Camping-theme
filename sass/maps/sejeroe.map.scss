@@ -21,17 +21,17 @@
   /***  Room locations ****/
   @include room-locate(4, 112px, 537px);
   @include room-locate(5, 96px, 526px);
-  @include room-locate(6, 104px, 495px);
+  @include room-locate(6, 104px, 507px);
   @include room-locate(7, 273px, 322px);
-  @include room-locate(8, 278px, 297px);
+  @include room-locate(8, 281px, 302px);
   @include room-locate(9, 302px, 290px);
-  @include room-locate(10, 305px, 269px);
+  @include room-locate(10, 310px, 272px);
   @include room-locate(11, 329px, 261px);
-  @include room-locate(12, 367px, 209px);
+  @include room-locate(12, 374px, 210px);
   @include room-locate(13, 409px, 173px);
   @include room-locate(14, 422px, 156px);
   @include room-locate(15, 437px, 142px);
-  
+
   // Add a room-locate for each room (camping unit).
   // The room-locate subtracts an offset of default 3px, this to center the dot correctly.
   //
