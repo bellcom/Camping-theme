@@ -19,6 +19,30 @@
 @media (min-width: 767px) {
   /***  Room locations ****/
   /* line 12, ../../sass/_base.scss */
+  .room-result0 {
+    left: 71px;
+    top: 549px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result1 {
+    left: 53px;
+    top: 564px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result2 {
+    left: 67px;
+    top: 577px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result3 {
+    left: 87px;
+    top: 592px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
   .room-result4 {
     left: 109px;
     top: 534px;
@@ -89,4 +113,19 @@
     left: 434px;
     top: 139px;
   }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-resulttelte {
+    left: 470px;
+    top: 209px;
+  }
+
+  /* Telte */
+  /* line 12, ../../sass/_base.scss */
+  .room-resultvogne {
+    left: 513px;
+    top: 93px;
+  }
+
+  /* Vogne */
 }
