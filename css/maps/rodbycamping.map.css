@@ -1,17 +1,16 @@
 @media (min-width: 767px) {
-  /* line 6, ../../sass/maps/rodbycamping.map.scss */
-  .page-camping #content,
-  .page-booking #content_result {
-    background: url("../../images/maps/XXX.png") 100% 0 no-repeat no-repeat;
+  /* line 5, ../../sass/maps/rodbycamping.map.scss */
+  .page-camping #content {
+    background: url("../../images/maps/rodby-kort.jpg") 100% 0 no-repeat no-repeat;
   }
 
-  /* line 10, ../../sass/maps/rodbycamping.map.scss */
+  /* line 8, ../../sass/maps/rodbycamping.map.scss */
   .page-camping #content, .page-booking #content_result {
     /** Adjust to height of background map **/
     min-height: 700px;
   }
 
-  /* line 14, ../../sass/maps/rodbycamping.map.scss */
+  /* line 12, ../../sass/maps/rodbycamping.map.scss */
   .view-camping-type {
     height: 700px;
   }
