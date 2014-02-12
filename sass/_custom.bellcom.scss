@@ -333,6 +333,10 @@ label {
 
 /** MAP **/
 
+.page-booking #content_result>h2 {
+  display: none;
+}
+
 @media (min-width: 767px) {
   body.active-map-enabled {
 

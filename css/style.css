@@ -717,8 +717,13 @@ label {
 }
 
 /** MAP **/
+/* line 336, ../sass/_custom.bellcom.scss */
+.page-booking #content_result > h2 {
+  display: none;
+}
+
 @media (min-width: 767px) {
-  /* line 341, ../sass/_custom.bellcom.scss */
+  /* line 345, ../sass/_custom.bellcom.scss */
   body.active-map-enabled .booking-result div.result-div {
     display: none;
     padding: 20px;
@@ -729,46 +734,46 @@ label {
     border: 3px solid #e3e3e3;
     border-radius: 7px;
   }
-  /* line 351, ../sass/_custom.bellcom.scss */
+  /* line 355, ../sass/_custom.bellcom.scss */
   body.active-map-enabled .booking-result div.entity-rooms-unit {
     border-top: 3px solid #f9f9f9;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
-  /* line 357, ../sass/_custom.bellcom.scss */
+  /* line 361, ../sass/_custom.bellcom.scss */
   body.active-map-enabled .booking-result form {
     border-bottom: 3px solid #f9f9f9;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
-  /* line 363, ../sass/_custom.bellcom.scss */
+  /* line 367, ../sass/_custom.bellcom.scss */
   body.active-map-enabled .booking-result {
     position: absolute;
     width: 10px;
     height: 10px;
     background-color: red;
   }
-  /* line 368, ../sass/_custom.bellcom.scss */
+  /* line 372, ../sass/_custom.bellcom.scss */
   body.active-map-enabled .booking-result.small {
     width: 10px !important;
   }
-  /* line 373, ../sass/_custom.bellcom.scss */
+  /* line 377, ../sass/_custom.bellcom.scss */
   body.active-map-enabled.page-booking #content_result h2 {
     display: none;
   }
-  /* line 376, ../sass/_custom.bellcom.scss */
+  /* line 380, ../sass/_custom.bellcom.scss */
   body.active-map-enabled.page-booking #content_result .booking-result h2 {
     background: url("../images/close.png") 100% 0 no-repeat;
     display: inherit;
   }
 
-  /* line 382, ../sass/_custom.bellcom.scss */
+  /* line 386, ../sass/_custom.bellcom.scss */
   .change-search {
     width: 100%;
     position: absolute;
     top: -40px;
   }
-  /* line 386, ../sass/_custom.bellcom.scss */
+  /* line 390, ../sass/_custom.bellcom.scss */
   .change-search div {
     width: 24%;
     float: left;
