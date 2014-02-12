@@ -483,3 +483,11 @@ function camping_theme() {
     ),
   );
 }
+
+/**
+ * Implements hook_commerce_currency_info_alter().
+ */
+function camping_commerce_currency_info_alter(&$currencies, $langcode) {
+    $currencies['DKK']['symbol'] = 'DKK';
+    $currencies['DKK']['symbol_placement'] = 'before';
+}
