@@ -75,7 +75,6 @@ body {
 #page {
   background-color: #fff;
   padding: 20px 20px;
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -391,6 +390,11 @@ label {
       width: 24%;
       float: left;
       font-weight: bold;
+    }
+  }
+  body.active-map-disabled.page-camping {
+    .booking-result {
+      display: none;
     }
   }
 }
