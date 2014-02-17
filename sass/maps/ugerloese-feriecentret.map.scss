@@ -1,0 +1,23 @@
+
+@import "base";
+@media (min-width:767px) {
+
+  .page-camping  #content,
+  .page-booking #content_result {
+    // Change this URL to use YOUR site's map.
+    background: url('../images/maps/XXX.png') 100% 0 no-repeat no-repeat;
+  }
+  .page-camping #content, .page-booking #content_result {
+    /** Adjust to height of background map **/
+    min-height: 700px;
+  }
+  .view-camping-type {
+    height: 700px;
+  }
+}
+
+@media (min-width:767px) {
+
+  /***  Room locations ****/
+
+}
