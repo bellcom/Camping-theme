@@ -198,16 +198,13 @@ body {
 }
 
 #block-menu-menu-camping-menu .content li {
-  &.first {
-    background: url('../images/trailer.png') 0 center no-repeat #71b3c6;
-  }
   &.last {
     background-color: #8F655C;
   }
 }
 
 a {
-  &.teltplads, &.campingovogn, &.autocamper, &.hytter, &.telt {
+  &.teltplads, &.campingvogn, &.autocamper, &.hytter, &.telt {
     color: #fff;
     margin-right: 15px;
     font-weight: bold;
