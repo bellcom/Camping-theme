@@ -28,22 +28,22 @@ a {
 @media (min-width:767px) {
 
   /*  Hytter */
-  @include room-locate(266, 74px, 552px);
+  @include room-locate(266, 69px, 546px, 0);
   @include room-locate(267, 56px, 567px);
   @include room-locate(268, 70px, 580px);
-  @include room-locate(269, 90px, 595px);
+  @include room-locate(269, 84px, 587px, 0);
   @include room-locate(4, 112px, 537px);
   @include room-locate(5, 96px, 526px);
   @include room-locate(6, 104px, 507px);
   @include room-locate(7, 273px, 322px);
-  @include room-locate(8, 281px, 302px);
-  @include room-locate(9, 302px, 290px);
-  @include room-locate(10, 310px, 272px);
-  @include room-locate(11, 329px, 261px);
-  @include room-locate(12, 374px, 210px);
-  @include room-locate(13, 409px, 173px);
+  @include room-locate(8, 282px, 301px, 0);
+  @include room-locate(9, 297px, 287px, 0);
+  @include room-locate(10, 310px, 272px, 0);
+  @include room-locate(11, 324px, 257px, 0);
+  @include room-locate(12, 374px, 209px, 0);
+  @include room-locate(13, 404px, 168px, 0);
   @include room-locate(14, 422px, 156px);
-  @include room-locate(15, 437px, 142px);
+  @include room-locate(15, 436px, 142px);
   @include room-locate(270, 454px, 122px);
   @include room-locate(271, 472px, 131px);
 
@@ -249,7 +249,7 @@ a {
   .room-result214,
   .room-result215 {
     left: 473px;
-    top: 212px;
+    top: 215px;
   }
 
   /* Enheder */
