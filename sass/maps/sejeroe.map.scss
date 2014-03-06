@@ -1,5 +1,14 @@
 
 @import "base";
+
+// Override the link color.
+a {
+  color: #093;
+  &:hover {
+    color: #004116;
+  }
+}
+
 @media (min-width:767px) {
 
   .page-camping  #content,

@@ -1,17 +1,26 @@
+/* line 5, ../../sass/maps/sejeroe.map.scss */
+a {
+  color: #093;
+}
+/* line 7, ../../sass/maps/sejeroe.map.scss */
+a:hover {
+  color: #004116;
+}
+
 @media (min-width: 767px) {
-  /* line 6, ../../sass/maps/sejeroe.map.scss */
+  /* line 15, ../../sass/maps/sejeroe.map.scss */
   .page-camping #content,
   .page-booking #content_result {
     background: url("../../images/maps/sejero-kort.jpg") 100% 0 no-repeat no-repeat;
   }
 
-  /* line 10, ../../sass/maps/sejeroe.map.scss */
+  /* line 19, ../../sass/maps/sejeroe.map.scss */
   .page-camping #content, .page-booking #content_result {
     /** Adjust to height of background map **/
     min-height: 700px;
   }
 
-  /* line 14, ../../sass/maps/sejeroe.map.scss */
+  /* line 23, ../../sass/maps/sejeroe.map.scss */
   .view-camping-type {
     height: 700px;
   }
@@ -127,7 +136,7 @@
   }
 
   /* Telte */
-  /* line 241, ../../sass/maps/sejeroe.map.scss */
+  /* line 250, ../../sass/maps/sejeroe.map.scss */
   .room-result16,
   .room-result17,
   .room-result18,
@@ -333,7 +342,7 @@
   }
 
   /* Enheder */
-  /* line 286, ../../sass/maps/sejeroe.map.scss */
+  /* line 295, ../../sass/maps/sejeroe.map.scss */
   .room-result216,
   .room-result217,
   .room-result218,
