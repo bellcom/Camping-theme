@@ -1,10 +1,10 @@
 /* line 5, ../../sass/maps/sejeroe.map.scss */
 a {
-  color: #093;
+  color: #093 !important;
 }
 /* line 7, ../../sass/maps/sejeroe.map.scss */
 a:hover {
-  color: #004116;
+  color: #004116 !important;
 }
 
 @media (min-width: 767px) {

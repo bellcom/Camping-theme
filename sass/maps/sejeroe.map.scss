@@ -3,9 +3,9 @@
 
 // Override the link color.
 a {
-  color: #093;
+  color: #093 !important;
   &:hover {
-    color: #004116;
+    color: #004116 !important;
   }
 }
 
