@@ -198,19 +198,32 @@ body {
 }
 
 #block-menu-menu-camping-menu .content li {
-  &.last {
-    background-color: #8F655C;
-  }
 }
 
-a {
-  &.teltplads, &.campingvogn, &.autocamper, &.hytter, &.telt {
+#block-menu-menu-camping-menu .content li {
+  a {
     color: #fff;
     margin-right: 15px;
     font-weight: bold;
     font-size: 17.5px;
     text-transform: uppercase;
     padding-left: 80px;
+
+    &.brown {
+      background-color: #8F655C;
+    }
+    &.turkish {
+      background-color: #71b3c6;
+    }
+    &.green {
+      background-color: #9DB330;
+    }
+    &.purple {
+      background-color: #9F2A68;
+    }
+    &.orange {
+      background-color: #C94d30;
+    }
   }
 }
 
