@@ -18,4 +18,380 @@
 }
 @media (min-width: 767px) {
   /***  Room locations ****/
+  /* line 12, ../../sass/_base.scss */
+  .room-result1 {
+    left: 440px;
+    top: 142px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result2 {
+    left: 416px;
+    top: 125px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result3 {
+    left: 431px;
+    top: 106px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result4 {
+    left: 453px;
+    top: 123px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result218 {
+    left: 516px;
+    top: 506px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result219 {
+    left: 516px;
+    top: 536px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result220 {
+    left: 516px;
+    top: 561px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result221 {
+    left: 516px;
+    top: 587px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result222 {
+    left: 516px;
+    top: 613px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result223 {
+    left: 499px;
+    top: 519px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result224 {
+    left: 499px;
+    top: 545px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result225 {
+    left: 499px;
+    top: 570px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result226 {
+    left: 499px;
+    top: 597px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result227 {
+    left: 499px;
+    top: 622px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result144 {
+    left: 418px;
+    top: 162px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result145 {
+    left: 402px;
+    top: 151px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result146 {
+    left: 406px;
+    top: 184px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result147 {
+    left: 384px;
+    top: 172px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result148 {
+    left: 387px;
+    top: 202px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result149 {
+    left: 370px;
+    top: 192px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result150 {
+    left: 371px;
+    top: 223px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result151 {
+    left: 352px;
+    top: 217px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result152 {
+    left: 355px;
+    top: 242px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result153 {
+    left: 337px;
+    top: 229px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result154 {
+    left: 345px;
+    top: 261px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result155 {
+    left: 330px;
+    top: 257px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result156 {
+    left: 346px;
+    top: 283px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result157 {
+    left: 330px;
+    top: 283px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result158 {
+    left: 346px;
+    top: 314px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result159 {
+    left: 330px;
+    top: 314px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result160 {
+    left: 346px;
+    top: 346px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result161 {
+    left: 330px;
+    top: 346px;
+  }
+
+  /* 20 */
+  /* line 12, ../../sass/_base.scss */
+  .room-result162 {
+    left: 346px;
+    top: 369px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result163 {
+    left: 330px;
+    top: 369px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result164 {
+    left: 413px;
+    top: 330px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result165 {
+    left: 445px;
+    top: 330px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result166 {
+    left: 479px;
+    top: 330px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result167 {
+    left: 508px;
+    top: 330px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result168 {
+    left: 413px;
+    top: 372px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result169 {
+    left: 445px;
+    top: 372px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result170 {
+    left: 479px;
+    top: 372px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result171 {
+    left: 508px;
+    top: 372px;
+  }
+
+  /* 30 */
+  /* line 12, ../../sass/_base.scss */
+  .room-result172 {
+    left: 413px;
+    top: 416px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result173 {
+    left: 413px;
+    top: 460px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result174 {
+    left: 445px;
+    top: 416px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result175 {
+    left: 445px;
+    top: 460px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result176 {
+    left: 479px;
+    top: 416px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result177 {
+    left: 479px;
+    top: 460px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result178 {
+    left: 508px;
+    top: 416px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result179 {
+    left: 508px;
+    top: 460px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result180 {
+    left: 521px;
+    top: 714px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result181 {
+    left: 496px;
+    top: 714px;
+  }
+
+  /* 40 */
+  /* line 12, ../../sass/_base.scss */
+  .room-result182 {
+    left: 521px;
+    top: 748px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result183 {
+    left: 496px;
+    top: 748px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result184 {
+    left: 515px;
+    top: 790px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result185 {
+    left: 516px;
+    top: 832px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result186 {
+    left: 478px;
+    top: 796px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result187 {
+    left: 487px;
+    top: 838px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result188 {
+    left: 450px;
+    top: 801px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result189 {
+    left: 458px;
+    top: 842px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result190 {
+    left: 421px;
+    top: 804px;
+  }
+
+  /* line 12, ../../sass/_base.scss */
+  .room-result191 {
+    left: 427px;
+    top: 847px;
+  }
+
+  /* 50 */
 }
