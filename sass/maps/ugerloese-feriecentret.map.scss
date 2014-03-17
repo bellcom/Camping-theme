@@ -20,77 +20,115 @@
 
   /***  Room locations ****/
   // Hytte
-  @include room-locate(1, 443px, 145px);
-  @include room-locate(2, 419px, 128px);
-  @include room-locate(3, 434px, 109px);
-  @include room-locate(4, 456px, 126px);
+  @include room-locate(1, 356px, 100px);
+  @include room-locate(2, 338px, 90px);
+  @include room-locate(3, 350px, 75px);
+  @include room-locate(4, 368px, 88px);
 
   // Lejlighed A
-  @include room-locate(218, 519px, 509px);
-  @include room-locate(219, 519px, 539px);
-  @include room-locate(220, 519px, 564px);
-  @include room-locate(221, 519px, 590px);
-  @include room-locate(222, 519px, 616px);
+  @include room-locate(218, 415px, 355px);
+  @include room-locate(219, 415px, 374px);
+  @include room-locate(220, 415px, 389px);
+  @include room-locate(221, 415px, 407px);
+  @include room-locate(222, 415px, 428px);
 
   // Lejlighed B
-  @include room-locate(223, 502px, 522px);
-  @include room-locate(224, 502px, 548px);
-  @include room-locate(225, 502px, 573px);
-  @include room-locate(226, 502px, 600px);
-  @include room-locate(227, 502px, 625px);
+  @include room-locate(223, 404px, 361px);
+  @include room-locate(224, 404px, 381px);
+  @include room-locate(225, 404px, 398px);
+  @include room-locate(226, 404px, 417px);
+  @include room-locate(227, 404px, 434px);
 
   // Enheder 3-10
-  @include room-locate(144, 421px, 165px);
-  @include room-locate(145, 405px, 154px);
-  @include room-locate(146, 409px, 187px);
-  @include room-locate(147, 387px, 175px);
-  @include room-locate(148, 390px, 205px);
-  @include room-locate(149, 373px, 195px);
-  @include room-locate(150, 374px, 226px);
-  @include room-locate(151, 355px, 220px);
+  @include room-locate(144, 340px, 115px);
+  @include room-locate(145, 325px, 106px);
+  @include room-locate(146, 327px, 128px);
+  @include room-locate(147, 313px, 121px);
+  @include room-locate(148, 314px, 142px);
+  @include room-locate(149, 301px, 134px);
+  @include room-locate(150, 302px, 154px);
+  @include room-locate(151, 288px, 146px);
 
-  @include room-locate(152, 358px, 245px);
-  @include room-locate(153, 340px, 232px);
-  @include room-locate(154, 348px, 264px);
-  @include room-locate(155, 333px, 260px);
-  @include room-locate(156, 349px, 286px);
-  @include room-locate(157, 333px, 286px);
-  @include room-locate(158, 349px, 317px);
-  @include room-locate(159, 333px, 317px);
-  @include room-locate(160, 349px, 349px);
-  @include room-locate(161, 333px, 349px); /* 20 */
+  @include room-locate(152, 289px, 169px);
+  @include room-locate(153, 274px, 162px);
+  @include room-locate(154, 282px, 182px);
+  @include room-locate(155, 267px, 179px);
+  @include room-locate(156, 282px, 197px);
+  @include room-locate(157, 267px, 197px);
+  @include room-locate(158, 282px, 219px);
+  @include room-locate(159, 267px, 219px);
+  @include room-locate(160, 282px, 240px);
+  @include room-locate(161, 267px, 240px); /* 20 */
 
-  @include room-locate(162, 349px, 372px);
-  @include room-locate(163, 333px, 372px);
-  @include room-locate(164, 416px, 333px);
-  @include room-locate(165, 448px, 333px);
-  @include room-locate(166, 482px, 333px);
-  @include room-locate(167, 511px, 333px);
-  @include room-locate(168, 416px, 375px);
-  @include room-locate(169, 448px, 375px);
-  @include room-locate(170, 482px, 375px);
-  @include room-locate(171, 511px, 375px); /* 30 */
+  @include room-locate(162, 282px, 257px);
+  @include room-locate(163, 267px, 257px);
+  @include room-locate(164, 336px, 229px);
+  @include room-locate(165, 336px, 258px);
+  @include room-locate(166, 360px, 229px);
+  @include room-locate(167, 360px, 258px);
+  @include room-locate(168, 386px, 229px);
+  @include room-locate(169, 386px, 258px);
+  @include room-locate(170, 411px, 229px);
+  @include room-locate(171, 411px, 258px); /* 30 */
 
-  @include room-locate(172, 416px, 419px);
-  @include room-locate(173, 416px, 463px);
-  @include room-locate(174, 448px, 419px);
-  @include room-locate(175, 448px, 463px);
-  @include room-locate(176, 482px, 419px);
-  @include room-locate(177, 482px, 463px);
-  @include room-locate(178, 511px, 419px);
-  @include room-locate(179, 511px, 463px);  
-  @include room-locate(180, 524px, 717px);
-  @include room-locate(181, 499px, 717px); /* 40 */
+  @include room-locate(172, 336px, 290px);
+  @include room-locate(173, 336px, 320px);
+  @include room-locate(174, 360px, 290px);
+  @include room-locate(175, 360px, 320px);
+  @include room-locate(176, 386px, 290px);
+  @include room-locate(177, 386px, 320px);
+  @include room-locate(178, 411px, 290px);
+  @include room-locate(179, 411px, 320px);  
+  @include room-locate(180, 422px, 496px);
+  @include room-locate(181, 403px, 496px); /* 40 */
   
-  @include room-locate(182, 524px, 751px);
-  @include room-locate(183, 499px, 751px);
-  @include room-locate(184, 518px, 793px);
-  @include room-locate(185, 519px, 835px);
-  @include room-locate(186, 481px, 799px);
-  @include room-locate(187, 490px, 841px);
-  @include room-locate(188, 453px, 804px);
-  @include room-locate(189, 461px, 845px);
-  @include room-locate(190, 424px, 807px);
-  @include room-locate(191, 430px, 850px); /* 50 */
+  @include room-locate(182, 422px, 518px);
+  @include room-locate(183, 403px, 518px);
+  @include room-locate(184, 418px, 548px);
+  @include room-locate(185, 419px, 577px);
+  @include room-locate(186, 385px, 550px);
+  @include room-locate(187, 395px, 581px);
+  @include room-locate(188, 360px, 554px);
+  @include room-locate(189, 368px, 584px);
+  @include room-locate(190, 339px, 559px);
+  @include room-locate(191, 348px, 586px); /* 50 */
 
+
+  @include room-locate(192, 318px, 560px);
+  @include room-locate(193, 323px, 591px);
+  @include room-locate(194, 295px, 564px);
+  @include room-locate(195, 300px, 593px);
+  @include room-locate(196, 417px, 602px);
+  @include room-locate(197, 420px, 630px);
+  @include room-locate(198, 390px, 605px);
+  @include room-locate(199, 396px, 634px);
+  @include room-locate(200, 366px, 607px);
+  @include room-locate(201, 371px, 639px); /* 60 */
+
+  @include room-locate(202, 342px, 612px);
+  @include room-locate(203, 348px, 641px);
+  @include room-locate(204, 312px, 616px);
+  @include room-locate(205, 316px, 644px);
+  @include room-locate(206, 433px, 648px);
+  @include room-locate(207, 450px, 648px);
+  @include room-locate(208, 409px, 215px);
+  @include room-locate(209, 393px, 215px);
+  @include room-locate(210, 379px, 215px);
+  @include room-locate(211, 365px, 215px);
+
+  @include room-locate(212, 353px, 215px);
+  @include room-locate(213, 340px, 215px); /* 72*/
+
+  // Autocamper 228 - 238
+  @include room-locate(228, 285px, 287px);
+  @include room-locate(229, 269px, 291px);
+  @include room-locate(230, 256px, 299px);
+  @include room-locate(231, 246px, 307px);
+  @include room-locate(232, 246px, 316px);
+  @include room-locate(233, 246px, 324px);
+  @include room-locate(234, 246px, 335px);
+  @include room-locate(235, 246px, 349px);
+  @include room-locate(236, 327px, 332px);
+  @include room-locate(237, 343px, 332px);
+  @include room-locate(238, 362px, 332px); /* 1 -11*/
 }
