@@ -780,32 +780,32 @@ label {
     background: url("../images/close.png") 100% 0 no-repeat;
     display: inherit;
   }
-  /* line 393, ../sass/_custom.bellcom.scss */
-  body.active-map-enabled .page-camping .view-camping-type .views-field.views-field-link-unit span {
-    opacity: 0;
-  }
-  /* line 397, ../sass/_custom.bellcom.scss */
-  body.active-map-enabled .page-camping #content,
-  body.active-map-enabled .page-booking #content_result {
-    background-size: 100%;
-    width: 620px;
-  }
 
-  /* line 402, ../sass/_custom.bellcom.scss */
+  /* line 394, ../sass/_custom.bellcom.scss */
   .change-search {
     width: 100%;
     position: absolute;
     top: -40px;
   }
-  /* line 406, ../sass/_custom.bellcom.scss */
+  /* line 398, ../sass/_custom.bellcom.scss */
   .change-search div {
     width: 24%;
     float: left;
     font-weight: bold;
   }
 
-  /* line 413, ../sass/_custom.bellcom.scss */
+  /* line 405, ../sass/_custom.bellcom.scss */
   body.active-map-disabled.page-camping .booking-result {
     display: none;
+  }
+
+  /* line 410, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled.page-camping .view-camping-type .views-field.views-field-link-unit span {
+    opacity: 0;
+  }
+  /* line 413, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled.page-camping #content, body.active-map-enabled.page-camping #content_result {
+    background-size: 100%;
+    width: 620px;
   }
 }

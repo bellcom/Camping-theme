@@ -390,14 +390,6 @@ label {
         display: inherit;
       }
     }
-    .page-camping .view-camping-type .views-field.views-field-link-unit span {
-    opacity: 0;
-    }
-    .page-camping  #content,
-    .page-booking #content_result {
-      background-size: 100%;
-      width: 620px;
-    }
   }
   .change-search {
     width: 100%;
@@ -414,4 +406,14 @@ label {
       display: none;
     }
   }
+  body.active-map-enabled.page-camping {
+    .view-camping-type .views-field.views-field-link-unit span {
+      opacity: 0;
+    }
+    #content, #content_result {
+      background-size: 100%;
+      width: 620px;
+    }    
+  }
+
 }
