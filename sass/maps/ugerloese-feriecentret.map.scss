@@ -20,17 +20,17 @@
 
   /***  Room locations ****/
   // Hytte
-  @include room-locate(214, 356px, 100px, 4px);
-  @include room-locate(215, 338px, 90px, 4px);
-  @include room-locate(216, 350px, 75px, 4px);
-  @include room-locate(217, 368px, 88px, 4px);
+  @include room-locate(214, 356px, 100px, 0);
+  @include room-locate(215, 338px, 90px, 0);
+  @include room-locate(216, 350px, 75px, 0);
+  @include room-locate(217, 368px, 88px, 0);
 
   // Lejlighed A
-  @include room-locate(218, 415px, 355px, 4px);
-  @include room-locate(219, 415px, 374px, 4px);
-  @include room-locate(220, 415px, 389px, 4px);
-  @include room-locate(221, 415px, 407px, 4px);
-  @include room-locate(222, 415px, 428px, 4px);
+  @include room-locate(218, 415px, 355px, 0);
+  @include room-locate(219, 415px, 374px, 0);
+  @include room-locate(220, 415px, 389px, 0);
+  @include room-locate(221, 415px, 407px, 0);
+  @include room-locate(222, 415px, 428px, 0);
 
   // Lejlighed B
   @include room-locate(223, 404px, 361px);

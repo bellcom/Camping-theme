@@ -1,6 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300);
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -8,6 +5,9 @@
 /*
  * Google Web Font
  */
+@import url(http://fonts.googleapis.com/css?family=Alex+Brush);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
 /* line 14, ../sass/style.scss */
 body {
   font-family: 'Titillium Web', sans-serif;
@@ -780,21 +780,31 @@ label {
     background: url("../images/close.png") 100% 0 no-repeat;
     display: inherit;
   }
+  /* line 393, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .page-camping .view-camping-type .views-field.views-field-link-unit span {
+    opacity: 0;
+  }
+  /* line 397, ../sass/_custom.bellcom.scss */
+  body.active-map-enabled .page-camping #content,
+  body.active-map-enabled .page-booking #content_result {
+    background-size: 100%;
+    width: 620px;
+  }
 
-  /* line 394, ../sass/_custom.bellcom.scss */
+  /* line 402, ../sass/_custom.bellcom.scss */
   .change-search {
     width: 100%;
     position: absolute;
     top: -40px;
   }
-  /* line 398, ../sass/_custom.bellcom.scss */
+  /* line 406, ../sass/_custom.bellcom.scss */
   .change-search div {
     width: 24%;
     float: left;
     font-weight: bold;
   }
 
-  /* line 405, ../sass/_custom.bellcom.scss */
+  /* line 413, ../sass/_custom.bellcom.scss */
   body.active-map-disabled.page-camping .booking-result {
     display: none;
   }
