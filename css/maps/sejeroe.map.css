@@ -135,8 +135,14 @@ a:hover {
     top: 128px;
   }
 
+  /* line 12, ../../sass/_base.scss */
+  .room-result272 {
+    left: 457px;
+    top: 347px;
+  }
+
   /* Telte */
-  /* line 250, ../../sass/maps/sejeroe.map.scss */
+  /* line 251, ../../sass/maps/sejeroe.map.scss */
   .room-result16,
   .room-result17,
   .room-result18,
@@ -342,7 +348,7 @@ a:hover {
   }
 
   /* Enheder */
-  /* line 295, ../../sass/maps/sejeroe.map.scss */
+  /* line 296, ../../sass/maps/sejeroe.map.scss */
   .room-result216,
   .room-result217,
   .room-result218,
