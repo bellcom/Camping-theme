@@ -95,7 +95,7 @@
             </ul>
         <?php endif; ?>
     </div> <!-- social-block -->
-    <div id="header"><div class="section clearfix row">
+    <div id="header"><div class="section clearfix">
      <!-- Yani:bellcom add top header her -->
       <div class="other-logos">
       <?php print render($page['top_header']); ?>
