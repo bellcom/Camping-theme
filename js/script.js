@@ -35,11 +35,13 @@
         var style_2 = $(this).css('background-color');
         if (style_1 == 'none' && style_2 != 'red'){
           $(this).find('.result-div').css({
+            'bottom': "10px",
             'width':'350px',
-            'height': 'auto',
+            'height': '85%',
             'background-color': '#fff',
             'display': 'block',
             'z-index': "800",
+            'overflow': "scroll",
           });
 
         }
