@@ -10,7 +10,11 @@
       $('.carousel').carousel();
       // Removing the pagination item-list class for twitter bootstrap.
       $('.pagination > div').removeClass('item-list');
-
+      $('#content').html( $('#content').html().replace(/DKK/gi,"<span class='notranslate'>DKK</span>") );
+      $('#rooms-wrapper').html( $('#rooms-wrapper').html().replace(/DKK/gi,"<span class='notranslate'>DKK</span>") );
+      $("#ui-datepicker-div").addClass('notranslate');
+      $(".commerce-line-item-actions").addClass('notranslate');
+      $(".checkout-buttons").addClass('notranslate');
       // Making the content div 100% for no-sidebars pages.
       if($('body').hasClass('no-sidebars')) {
         $('#main-wrapper #content').removeClass('span8');
