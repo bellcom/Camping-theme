@@ -20,10 +20,12 @@ $selection: #58cdcd;
     top: $top - $offset;
   }
 }
-@mixin room-green ($id, $id2, $height : 10px, $color : #35E214) {
+@mixin room-green ($id, $id2, $height : 10px, $color : "") {
   @while ($id > $id2) {
     .room-result#{$id} {
-      background-color: $color !important;
+      @if $color != "" {
+        background-color: $color !important;
+      }
       height: $height !important;
       $id: $id - 1;
     }
