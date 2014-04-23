@@ -30,7 +30,7 @@
       $('a.campingvogn').parents("li").css("background","url('/profiles/camping/themes/Camping/images/trailer.png') 0 center no-repeat #71b3c6");
       $("#content .form-submit").addClass('btn');
 
-      $('.booking-result').click(function(e){
+      $('.active-map-enabled .booking-result').click(function(e){
         $(".result-div").hide();
         $(this).css({'display':'block','background-color': 'red','width':'10px','height': "10px",});
 
@@ -54,7 +54,7 @@
 
       });
 
-      $('.booking-result div.result-div h2').click(function(e){
+      $('.active-map-enabled .booking-result div.result-div h2').click(function(e){
 
         $(this).parents("div.result-div").hide(600);
 
